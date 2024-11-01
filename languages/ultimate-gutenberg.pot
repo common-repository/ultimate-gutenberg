@@ -1,0 +1,3070 @@
+# Ultimate Gutenberg Pot
+# Copyright 2018 ...
+# This file is distributed under the GNU General Public License v3 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate "
+"Gutenberg Pot v1.0.0\n"
+"POT-Creation-Date: 2019-11-23 "
+"11:12+0900\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Your Name "
+"<you@example.com>\n"
+"Language-Team: https://twitter.com/"
+"k_kikuchi_tw\n"
+"Report-Msgid-Bugs-To: Translator "
+"Name <translations@example.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; "
+"charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n !"
+"= 1;\n"
+"X-Textdomain-Support: yesX-"
+"Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;"
+"esc_html_e;esc_html_x:1,2c;"
+"esc_html__;esc_attr_e;"
+"esc_attr_x:1,2c;esc_attr__;_ex:1,2c;"
+"_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;"
+"_n:1,2;_n_noop:1,2;__ngettext:1,2;"
+"__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Language: en_US\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: admin/"
+"library/redux/redux-extensions\n"
+"X-Poedit-SearchPathExcluded-1: admin/"
+"library/redux/redux-framework\n"
+"X-Poedit-SearchPathExcluded-2: admin/"
+"library/redux/admin-init.php\n"
+"X-Poedit-SearchPathExcluded-3: admin/"
+"library/redux/README.md\n"
+
+#: admin/class-ultimate-gutenberg-admin.php:190
+msgid ""
+"Ultiamte Gutenberg - Custom Block "
+"Templates"
+msgstr ""
+
+#: admin/plugin-info.php:15
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:28 src/blocks.js:29
+#: src/blocks.js:30 src/blocks.js:31
+#: src/blocks.js:32 src/blocks.js:33
+#: src/blocks.js:34 src/blocks.js:35
+#: src/blocks.js:36 src/blocks.js:37
+#: src/blocks.js:38 src/blocks.js:39
+#: src/blocks.js:40 src/blocks.js:41
+#: src/blocks.js:42 src/blocks.js:43
+#: src/blocks/blockquotes/normal/block-compiled.js:1
+#: src/blocks/blockquotes/normal/block-compiled__premium_only.js:1
+#: src/blocks/blockquotes/normal/block.js:63
+#: src/blocks/blockquotes/normal/block__premium_only.js:63
+#: src/blocks/buttons/normal/block-compiled.js:1
+#: src/blocks/buttons/normal/block-compiled__premium_only.js:1
+#: src/blocks/buttons/normal/block.js:63
+#: src/blocks/buttons/normal/block__premium_only.js:63
+#: src/blocks/codedemo/normal/block-compiled.js:1
+#: src/blocks/codedemo/normal/block-compiled__premium_only.js:1
+#: src/blocks/codedemo/normal/block.js:65
+#: src/blocks/codedemo/normal/block__premium_only.js:65
+#: src/blocks/codes/normal/block-compiled.js:1
+#: src/blocks/codes/normal/block-compiled__premium_only.js:1
+#: src/blocks/codes/normal/block.js:63
+#: src/blocks/codes/normal/block__premium_only.js:63
+#: src/blocks/divider/normal/block-compiled.js:1
+#: src/blocks/divider/normal/block-compiled__premium_only.js:1
+#: src/blocks/divider/normal/block.js:63
+#: src/blocks/divider/normal/block__premium_only.js:63
+#: src/blocks/dl/inline/block-compiled.js:1
+#: src/blocks/dl/inline/block-compiled__premium_only.js:1
+#: src/blocks/dl/inline/block.js:64
+#: src/blocks/dl/inline/block__premium_only.js:64
+#: src/blocks/dl/normal/block-compiled.js:1
+#: src/blocks/dl/normal/block-compiled__premium_only.js:1
+#: src/blocks/dl/normal/block.js:64
+#: src/blocks/dl/normal/block__premium_only.js:64
+#: src/blocks/headings/normal/block-compiled.js:1
+#: src/blocks/headings/normal/block-compiled__premium_only.js:1
+#: src/blocks/headings/normal/block.js:64
+#: src/blocks/headings/normal/block__premium_only.js:64
+#: src/blocks/img/normal/block-compiled.js:1
+#: src/blocks/img/normal/block-compiled__premium_only.js:1
+#: src/blocks/img/normal/block.js:62
+#: src/blocks/img/normal/block__premium_only.js:62
+#: src/blocks/lists/normal/block-compiled.js:1
+#: src/blocks/lists/normal/block-compiled__premium_only.js:1
+#: src/blocks/lists/normal/block.js:63
+#: src/blocks/lists/normal/block__premium_only.js:62
+#: src/blocks/pie-chart/normal/block-compiled.js:1
+#: src/blocks/pie-chart/normal/block-compiled__premium_only.js:1
+#: src/blocks/pie-chart/normal/block.js:67
+#: src/blocks/pie-chart/normal/block__premium_only.js:67
+#: src/blocks/spacer/normal/block-compiled.js:1
+#: src/blocks/spacer/normal/block-compiled__premium_only.js:1
+#: src/blocks/spacer/normal/block.js:64
+#: src/blocks/spacer/normal/block__premium_only.js:64
+#: src/blocks/speak/normal/block-compiled.js:1
+#: src/blocks/speak/normal/block-compiled__premium_only.js:1
+#: src/blocks/speak/normal/block.js:61
+#: src/blocks/speak/normal/block__premium_only.js:62
+#: src/blocks/step/inner/block-compiled__premium_only.js:1
+#: src/blocks/step/inner/block__premium_only.js:63
+#: src/blocks/step/normal/block-compiled.js:1
+#: src/blocks/step/normal/block-compiled__premium_only.js:1
+#: src/blocks/step/normal/block.js:62
+#: src/blocks/step/normal/block__premium_only.js:62
+#: src/blocks/tips/normal/block-compiled.js:1
+#: src/blocks/tips/normal/block-compiled__premium_only.js:1
+#: src/blocks/tips/normal/block.js:63
+#: src/blocks/tips/normal/block__premium_only.js:63
+#: src/blocks/tweet/normal/block-compiled.js:1
+#: src/blocks/tweet/normal/block-compiled__premium_only.js:1
+#: src/blocks/tweet/normal/block.js:63
+#: src/blocks/tweet/normal/block__premium_only.js:63
+#: src/blocks__premium_only.js:29
+#: src/blocks__premium_only.js:30
+#: src/blocks__premium_only.js:31
+#: src/blocks__premium_only.js:32
+#: src/blocks__premium_only.js:33
+#: src/blocks__premium_only.js:34
+#: src/blocks__premium_only.js:35
+#: src/blocks__premium_only.js:36
+#: src/blocks__premium_only.js:37
+#: src/blocks__premium_only.js:38
+#: src/blocks__premium_only.js:39
+#: src/blocks__premium_only.js:40
+#: src/blocks__premium_only.js:41
+#: src/blocks__premium_only.js:42
+#: src/blocks__premium_only.js:43
+#: src/blocks__premium_only.js:44
+#: src/blocks__premium_only.js:45
+msgid "Ultimate Gutenberg"
+msgstr ""
+
+#: admin/plugin-info.php:23
+#, php-format
+msgid "Hello, %s,"
+msgstr ""
+
+#: admin/plugin-info.php:24
+#, php-format
+msgid ""
+"Welcome to Ultimate Gutenberg "
+"version %s"
+msgstr ""
+
+#: admin/plugin-info.php:25
+msgid ""
+"Ultimate Gutenberg is now installed "
+"and ready to go. To help you with "
+"the next step, weâ€™ve gathered "
+"together on this page all the "
+"resources you might need. We hope "
+"you enjoy using Ultimate Gutenberg. "
+msgstr ""
+
+#: admin/plugin-info.php:31
+msgid "Getting started"
+msgstr ""
+
+#: admin/plugin-info.php:32
+msgid "Recommended Actions"
+msgstr ""
+
+#: admin/plugin-info.php:33
+msgid "Support"
+msgstr ""
+
+#: admin/plugin-info.php:34
+msgid "Free vs Premium"
+msgstr ""
+
+#: admin/plugin-info.php:40
+msgid ""
+"Step 1 - Implement recommended "
+"actions"
+msgstr ""
+
+#: admin/plugin-info.php:41
+msgid ""
+"We've made a list of steps for you "
+"to follow to get the most of "
+"Ultimate Gutenberg."
+msgstr ""
+
+#: admin/plugin-info.php:42
+msgid "Check recommended actions"
+msgstr ""
+
+#: admin/plugin-info.php:44
+msgid "Step 2 - Read documentation"
+msgstr ""
+
+#: admin/plugin-info.php:45
+msgid ""
+"Our documentation (including video "
+"tutorials) will have you up and "
+"running in no time."
+msgstr ""
+
+#: admin/plugin-info.php:46
+#: admin/plugin-info.php:67
+msgid "Documentation"
+msgstr ""
+
+#: admin/plugin-info.php:48
+msgid "Step 3 - Customize"
+msgstr ""
+
+#: admin/plugin-info.php:49
+msgid ""
+"Use the Customizer to make Ultimate "
+"Gutenberg your own."
+msgstr ""
+
+#: admin/plugin-info.php:50
+msgid "Go to Customizer"
+msgstr ""
+
+#: admin/plugin-info.php:54
+msgid "Install: Compatible Theme "
+msgstr ""
+
+#: admin/plugin-info.php:55
+msgid ""
+"It is highly recommended that you "
+"install the official Ultimate "
+"Gutenberg Compatible theme. "
+"Gutenberg Custom Blocks is usually "
+"affected by css written by 3rd party "
+"theme. If you feel a styling issue, "
+"please try our compatible theme, or "
+"make a bit cutomize by yourself."
+msgstr ""
+
+#: admin/plugin-info.php:59
+msgid "Install and Activate"
+msgstr ""
+
+#: admin/plugin-info.php:68
+msgid ""
+"Our documentation can help you learn "
+"how to use the theme and also "
+"provides you with premade code "
+"snippets and answers to FAQs."
+msgstr ""
+
+#: admin/plugin-info.php:69
+msgid "See the Documentation"
+msgstr ""
+
+#: admin/plugin-info.php:77
+msgid "Feature"
+msgstr ""
+
+#: admin/plugin-info.php:78
+msgid "Free"
+msgstr ""
+
+#: admin/plugin-info.php:79
+msgid "Premium"
+msgstr ""
+
+#: admin/plugin-info.php:84
+msgid "Responsive"
+msgstr ""
+
+#: admin/plugin-info.php:89
+msgid ""
+"Ready for the compatible theme "
+"created by Plugin Developer"
+msgstr ""
+
+#: admin/plugin-info.php:94
+msgid "Heading Block"
+msgstr ""
+
+#: admin/plugin-info.php:99
+msgid "Button Block"
+msgstr ""
+
+#: admin/plugin-info.php:104
+msgid "List Block"
+msgstr ""
+
+#: admin/plugin-info.php:109
+msgid "Tips Block"
+msgstr ""
+
+#: admin/plugin-info.php:114
+msgid "Blockquote Block"
+msgstr ""
+
+#: admin/plugin-info.php:119
+msgid "Code Block"
+msgstr ""
+
+#: admin/plugin-info.php:124
+msgid "Tweet"
+msgstr ""
+
+#: admin/plugin-info.php:129
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:37
+#: src/blocks/speak/normal/block-compiled.js:1
+#: src/blocks/speak/normal/block-compiled__premium_only.js:1
+#: src/blocks/speak/normal/block.js:60
+#: src/blocks/speak/normal/block__premium_only.js:61
+#: src/blocks__premium_only.js:38
+msgid "Speak"
+msgstr ""
+
+#: admin/plugin-info.php:134
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:38
+#: src/blocks/step/inner/block-compiled__premium_only.js:1
+#: src/blocks/step/inner/block__premium_only.js:62
+#: src/blocks/step/normal/block-compiled.js:1
+#: src/blocks/step/normal/block-compiled__premium_only.js:1
+#: src/blocks/step/normal/block.js:61
+#: src/blocks/step/normal/block__premium_only.js:61
+#: src/blocks__premium_only.js:39
+#: src/blocks__premium_only.js:40
+msgid "Step"
+msgstr ""
+
+#: admin/plugin-info.php:139
+msgid "Image"
+msgstr ""
+
+#: admin/plugin-info.php:144
+msgid "CodeDemo"
+msgstr ""
+
+#: admin/plugin-info.php:149
+msgid "Pie Chart"
+msgstr ""
+
+#: admin/plugin-info.php:154
+msgid "DL List"
+msgstr ""
+
+#: admin/plugin-info.php:159
+msgid "Spacer Block"
+msgstr ""
+
+#: admin/plugin-info.php:164
+msgid "Divider Block"
+msgstr ""
+
+#: admin/plugin-info.php:168
+msgid "Priority support"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:28
+#: src/blocks/buttons/normal/block-compiled.js:1
+#: src/blocks/buttons/normal/block-compiled__premium_only.js:1
+#: src/blocks/buttons/normal/block.js:57
+#: src/blocks/buttons/normal/block__premium_only.js:57
+#: src/blocks__premium_only.js:29
+msgid "UG Button"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:28
+#: src/blocks/buttons/normal/block-compiled.js:1
+#: src/blocks/buttons/normal/block-compiled__premium_only.js:1
+#: src/blocks/buttons/normal/block.js:61
+#: src/blocks/buttons/normal/block__premium_only.js:61
+#: src/blocks__premium_only.js:29
+msgid "Buttons"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:28
+#: src/blocks/buttons/normal/block-compiled.js:1
+#: src/blocks/buttons/normal/block-compiled__premium_only.js:1
+#: src/blocks/buttons/normal/block.js:62
+#: src/blocks/buttons/normal/block__premium_only.js:62
+#: src/blocks__premium_only.js:29
+msgid "Button"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:28
+#: src/blocks/buttons/normal/block-compiled.js:1
+#: src/blocks/buttons/normal/block-compiled__premium_only.js:1
+#: src/blocks/buttons/normal/block.js:203
+#: src/blocks/buttons/normal/block__premium_only.js:499
+#: src/blocks__premium_only.js:29
+msgid "fas fa-external-link-square-alt"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:28
+#: src/blocks/buttons/normal/block-compiled.js:1
+#: src/blocks/buttons/normal/block-compiled__premium_only.js:1
+#: src/blocks/buttons/normal/block.js:204
+#: src/blocks/buttons/normal/block__premium_only.js:500
+#: src/blocks__premium_only.js:29
+msgid "fas fa-external-link-alt"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:28
+#: src/blocks/buttons/normal/block-compiled.js:1
+#: src/blocks/buttons/normal/block-compiled__premium_only.js:1
+#: src/blocks/buttons/normal/block.js:205
+#: src/blocks/buttons/normal/block__premium_only.js:501
+#: src/blocks__premium_only.js:29
+msgid "fas fa-link"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:28 src/blocks.js:29
+#: src/blocks.js:30 src/blocks.js:31
+#: src/blocks.js:32 src/blocks.js:33
+#: src/blocks.js:34 src/blocks.js:36
+#: src/blocks.js:37 src/blocks.js:38
+#: src/blocks.js:39 src/blocks.js:40
+#: src/blocks.js:41 src/blocks.js:43
+#: src/blocks/blockquotes/normal/block-compiled.js:1
+#: src/blocks/blockquotes/normal/block-compiled__premium_only.js:1
+#: src/blocks/blockquotes/normal/block.js:204
+#: src/blocks/blockquotes/normal/block.js:205
+#: src/blocks/blockquotes/normal/block__premium_only.js:700
+#: src/blocks/blockquotes/normal/block__premium_only.js:701
+#: src/blocks/buttons/normal/block-compiled.js:1
+#: src/blocks/buttons/normal/block-compiled__premium_only.js:1
+#: src/blocks/buttons/normal/block.js:226
+#: src/blocks/buttons/normal/block.js:227
+#: src/blocks/buttons/normal/block__premium_only.js:522
+#: src/blocks/buttons/normal/block__premium_only.js:523
+#: src/blocks/codedemo/normal/block-compiled.js:1
+#: src/blocks/codedemo/normal/block-compiled__premium_only.js:1
+#: src/blocks/codedemo/normal/block.js:217
+#: src/blocks/codedemo/normal/block.js:218
+#: src/blocks/codedemo/normal/block__premium_only.js:827
+#: src/blocks/codedemo/normal/block__premium_only.js:828
+#: src/blocks/codes/normal/block-compiled.js:1
+#: src/blocks/codes/normal/block-compiled__premium_only.js:1
+#: src/blocks/codes/normal/block.js:177
+#: src/blocks/codes/normal/block.js:178
+#: src/blocks/codes/normal/block__premium_only.js:235
+#: src/blocks/codes/normal/block__premium_only.js:236
+#: src/blocks/divider/normal/block-compiled.js:1
+#: src/blocks/divider/normal/block-compiled__premium_only.js:1
+#: src/blocks/divider/normal/block.js:156
+#: src/blocks/divider/normal/block__premium_only.js:156
+#: src/blocks/dl/normal/block-compiled.js:1
+#: src/blocks/dl/normal/block-compiled__premium_only.js:1
+#: src/blocks/dl/normal/block.js:218
+#: src/blocks/dl/normal/block.js:219
+#: src/blocks/dl/normal/block__premium_only.js:574
+#: src/blocks/dl/normal/block__premium_only.js:575
+#: src/blocks/headings/normal/block-compiled.js:1
+#: src/blocks/headings/normal/block-compiled__premium_only.js:1
+#: src/blocks/headings/normal/block.js:197
+#: src/blocks/headings/normal/block.js:198
+#: src/blocks/headings/normal/block__premium_only.js:544
+#: src/blocks/headings/normal/block__premium_only.js:545
+#: src/blocks/img/normal/block-compiled.js:1
+#: src/blocks/img/normal/block-compiled__premium_only.js:1
+#: src/blocks/img/normal/block.js:208
+#: src/blocks/img/normal/block.js:209
+#: src/blocks/img/normal/block__premium_only.js:208
+#: src/blocks/img/normal/block__premium_only.js:209
+#: src/blocks/lists/normal/block-compiled.js:1
+#: src/blocks/lists/normal/block-compiled__premium_only.js:1
+#: src/blocks/lists/normal/block.js:224
+#: src/blocks/lists/normal/block.js:225
+#: src/blocks/lists/normal/block__premium_only.js:586
+#: src/blocks/lists/normal/block__premium_only.js:587
+#: src/blocks/pie-chart/normal/block-compiled.js:1
+#: src/blocks/pie-chart/normal/block-compiled__premium_only.js:1
+#: src/blocks/pie-chart/normal/block.js:202
+#: src/blocks/pie-chart/normal/block.js:203
+#: src/blocks/pie-chart/normal/block__premium_only.js:193
+#: src/blocks/pie-chart/normal/block__premium_only.js:194
+#: src/blocks/speak/normal/block-compiled.js:1
+#: src/blocks/speak/normal/block-compiled__premium_only.js:1
+#: src/blocks/speak/normal/block.js:218
+#: src/blocks/speak/normal/block.js:219
+#: src/blocks/speak/normal/block__premium_only.js:239
+#: src/blocks/speak/normal/block__premium_only.js:240
+#: src/blocks/step/inner/block-compiled__premium_only.js:1
+#: src/blocks/step/inner/block__premium_only.js:191
+#: src/blocks/step/inner/block__premium_only.js:192
+#: src/blocks/step/normal/block-compiled.js:1
+#: src/blocks/step/normal/block-compiled__premium_only.js:1
+#: src/blocks/step/normal/block.js:155
+#: src/blocks/step/normal/block.js:156
+#: src/blocks/step/normal/block__premium_only.js:167
+#: src/blocks/step/normal/block__premium_only.js:168
+#: src/blocks/tips/normal/block-compiled.js:1
+#: src/blocks/tips/normal/block-compiled__premium_only.js:1
+#: src/blocks/tips/normal/block.js:213
+#: src/blocks/tips/normal/block.js:214
+#: src/blocks/tips/normal/block__premium_only.js:529
+#: src/blocks/tips/normal/block__premium_only.js:530
+#: src/blocks/tweet/normal/block-compiled.js:1
+#: src/blocks/tweet/normal/block-compiled__premium_only.js:1
+#: src/blocks/tweet/normal/block.js:224
+#: src/blocks/tweet/normal/block.js:225
+#: src/blocks/tweet/normal/block__premium_only.js:492
+#: src/blocks/tweet/normal/block__premium_only.js:493
+#: src/blocks__premium_only.js:29
+#: src/blocks__premium_only.js:30
+#: src/blocks__premium_only.js:31
+#: src/blocks__premium_only.js:32
+#: src/blocks__premium_only.js:33
+#: src/blocks__premium_only.js:34
+#: src/blocks__premium_only.js:35
+#: src/blocks__premium_only.js:37
+#: src/blocks__premium_only.js:38
+#: src/blocks__premium_only.js:39
+#: src/blocks__premium_only.js:40
+#: src/blocks__premium_only.js:41
+#: src/blocks__premium_only.js:42
+#: src/blocks__premium_only.js:43
+#: src/blocks__premium_only.js:45
+msgid "Select Pattern"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:28 src/blocks.js:29
+#: src/blocks.js:30 src/blocks.js:31
+#: src/blocks.js:32 src/blocks.js:33
+#: src/blocks.js:34 src/blocks.js:36
+#: src/blocks.js:37 src/blocks.js:38
+#: src/blocks.js:39 src/blocks.js:40
+#: src/blocks.js:41 src/blocks.js:43
+#: src/blocks/blockquotes/normal/block-compiled.js:1
+#: src/blocks/blockquotes/normal/block-compiled__premium_only.js:1
+#: src/blocks/buttons/normal/block-compiled.js:1
+#: src/blocks/buttons/normal/block-compiled__premium_only.js:1
+#: src/blocks/codedemo/normal/block-compiled.js:1
+#: src/blocks/codedemo/normal/block-compiled__premium_only.js:1
+#: src/blocks/codes/normal/block-compiled.js:1
+#: src/blocks/codes/normal/block-compiled__premium_only.js:1
+#: src/blocks/divider/normal/block-compiled.js:1
+#: src/blocks/divider/normal/block-compiled__premium_only.js:1
+#: src/blocks/divider/normal/block.js:167
+#: src/blocks/divider/normal/block__premium_only.js:167
+#: src/blocks/dl/normal/block-compiled.js:1
+#: src/blocks/dl/normal/block-compiled__premium_only.js:1
+#: src/blocks/headings/normal/block-compiled.js:1
+#: src/blocks/headings/normal/block-compiled__premium_only.js:1
+#: src/blocks/img/normal/block-compiled.js:1
+#: src/blocks/img/normal/block-compiled__premium_only.js:1
+#: src/blocks/lists/normal/block-compiled.js:1
+#: src/blocks/lists/normal/block-compiled__premium_only.js:1
+#: src/blocks/pie-chart/normal/block-compiled.js:1
+#: src/blocks/pie-chart/normal/block-compiled__premium_only.js:1
+#: src/blocks/speak/normal/block-compiled.js:1
+#: src/blocks/speak/normal/block-compiled__premium_only.js:1
+#: src/blocks/step/normal/block-compiled.js:1
+#: src/blocks/step/normal/block-compiled__premium_only.js:1
+#: src/blocks/tips/normal/block-compiled.js:1
+#: src/blocks/tips/normal/block-compiled__premium_only.js:1
+#: src/blocks/tweet/normal/block-compiled.js:1
+#: src/blocks/tweet/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:29
+#: src/blocks__premium_only.js:30
+#: src/blocks__premium_only.js:31
+#: src/blocks__premium_only.js:32
+#: src/blocks__premium_only.js:33
+#: src/blocks__premium_only.js:34
+#: src/blocks__premium_only.js:35
+#: src/blocks__premium_only.js:37
+#: src/blocks__premium_only.js:38
+#: src/blocks__premium_only.js:39
+#: src/blocks__premium_only.js:41
+#: src/blocks__premium_only.js:42
+#: src/blocks__premium_only.js:43
+#: src/blocks__premium_only.js:45
+msgid "Margin"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:28 src/blocks.js:29
+#: src/blocks.js:30 src/blocks.js:31
+#: src/blocks.js:32 src/blocks.js:33
+#: src/blocks.js:34 src/blocks.js:36
+#: src/blocks.js:37 src/blocks.js:38
+#: src/blocks.js:39 src/blocks.js:40
+#: src/blocks.js:41 src/blocks.js:43
+#: src/blocks/blockquotes/normal/block-compiled.js:1
+#: src/blocks/blockquotes/normal/block-compiled__premium_only.js:1
+#: src/blocks/buttons/normal/block-compiled.js:1
+#: src/blocks/buttons/normal/block-compiled__premium_only.js:1
+#: src/blocks/codedemo/normal/block-compiled.js:1
+#: src/blocks/codedemo/normal/block-compiled__premium_only.js:1
+#: src/blocks/codes/normal/block-compiled.js:1
+#: src/blocks/codes/normal/block-compiled__premium_only.js:1
+#: src/blocks/divider/normal/block-compiled.js:1
+#: src/blocks/divider/normal/block-compiled__premium_only.js:1
+#: src/blocks/divider/normal/block.js:169
+#: src/blocks/divider/normal/block__premium_only.js:169
+#: src/blocks/dl/normal/block-compiled.js:1
+#: src/blocks/dl/normal/block-compiled__premium_only.js:1
+#: src/blocks/headings/normal/block-compiled.js:1
+#: src/blocks/headings/normal/block-compiled__premium_only.js:1
+#: src/blocks/img/normal/block-compiled.js:1
+#: src/blocks/img/normal/block-compiled__premium_only.js:1
+#: src/blocks/lists/normal/block-compiled.js:1
+#: src/blocks/lists/normal/block-compiled__premium_only.js:1
+#: src/blocks/pie-chart/normal/block-compiled.js:1
+#: src/blocks/pie-chart/normal/block-compiled__premium_only.js:1
+#: src/blocks/speak/normal/block-compiled.js:1
+#: src/blocks/speak/normal/block-compiled__premium_only.js:1
+#: src/blocks/step/normal/block-compiled.js:1
+#: src/blocks/step/normal/block-compiled__premium_only.js:1
+#: src/blocks/tips/normal/block-compiled.js:1
+#: src/blocks/tips/normal/block-compiled__premium_only.js:1
+#: src/blocks/tweet/normal/block-compiled.js:1
+#: src/blocks/tweet/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:29
+#: src/blocks__premium_only.js:30
+#: src/blocks__premium_only.js:31
+#: src/blocks__premium_only.js:32
+#: src/blocks__premium_only.js:33
+#: src/blocks__premium_only.js:34
+#: src/blocks__premium_only.js:35
+#: src/blocks__premium_only.js:37
+#: src/blocks__premium_only.js:38
+#: src/blocks__premium_only.js:39
+#: src/blocks__premium_only.js:41
+#: src/blocks__premium_only.js:42
+#: src/blocks__premium_only.js:43
+#: src/blocks__premium_only.js:45
+msgid "Margin Top"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:28 src/blocks.js:29
+#: src/blocks.js:30 src/blocks.js:31
+#: src/blocks.js:32 src/blocks.js:34
+#: src/blocks.js:36 src/blocks.js:37
+#: src/blocks.js:38 src/blocks.js:39
+#: src/blocks.js:40 src/blocks.js:41
+#: src/blocks/blockquotes/normal/block-compiled.js:1
+#: src/blocks/blockquotes/normal/block-compiled__premium_only.js:1
+#: src/blocks/buttons/normal/block-compiled.js:1
+#: src/blocks/buttons/normal/block-compiled__premium_only.js:1
+#: src/blocks/codedemo/normal/block-compiled.js:1
+#: src/blocks/codedemo/normal/block-compiled__premium_only.js:1
+#: src/blocks/divider/normal/block-compiled.js:1
+#: src/blocks/divider/normal/block-compiled__premium_only.js:1
+#: src/blocks/divider/normal/block.js:170
+#: src/blocks/divider/normal/block.js:179
+#: src/blocks/divider/normal/block__premium_only.js:170
+#: src/blocks/divider/normal/block__premium_only.js:179
+#: src/blocks/dl/normal/block-compiled.js:1
+#: src/blocks/dl/normal/block-compiled__premium_only.js:1
+#: src/blocks/headings/normal/block-compiled.js:1
+#: src/blocks/headings/normal/block-compiled__premium_only.js:1
+#: src/blocks/img/normal/block-compiled.js:1
+#: src/blocks/img/normal/block-compiled__premium_only.js:1
+#: src/blocks/lists/normal/block-compiled.js:1
+#: src/blocks/lists/normal/block-compiled__premium_only.js:1
+#: src/blocks/speak/normal/block-compiled.js:1
+#: src/blocks/speak/normal/block-compiled__premium_only.js:1
+#: src/blocks/step/normal/block-compiled.js:1
+#: src/blocks/step/normal/block-compiled__premium_only.js:1
+#: src/blocks/tips/normal/block-compiled.js:1
+#: src/blocks/tips/normal/block-compiled__premium_only.js:1
+#: src/blocks/tweet/normal/block-compiled.js:1
+#: src/blocks/tweet/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:29
+#: src/blocks__premium_only.js:30
+#: src/blocks__premium_only.js:31
+#: src/blocks__premium_only.js:32
+#: src/blocks__premium_only.js:33
+#: src/blocks__premium_only.js:35
+#: src/blocks__premium_only.js:37
+#: src/blocks__premium_only.js:38
+#: src/blocks__premium_only.js:39
+#: src/blocks__premium_only.js:41
+#: src/blocks__premium_only.js:42
+#: src/blocks__premium_only.js:43
+msgid ""
+"Margin is applied to only front "
+"screen."
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:28 src/blocks.js:29
+#: src/blocks.js:30 src/blocks.js:31
+#: src/blocks.js:32 src/blocks.js:33
+#: src/blocks.js:34 src/blocks.js:36
+#: src/blocks.js:37 src/blocks.js:38
+#: src/blocks.js:39 src/blocks.js:40
+#: src/blocks.js:41 src/blocks.js:43
+#: src/blocks/blockquotes/normal/block-compiled.js:1
+#: src/blocks/blockquotes/normal/block-compiled__premium_only.js:1
+#: src/blocks/buttons/normal/block-compiled.js:1
+#: src/blocks/buttons/normal/block-compiled__premium_only.js:1
+#: src/blocks/codedemo/normal/block-compiled.js:1
+#: src/blocks/codedemo/normal/block-compiled__premium_only.js:1
+#: src/blocks/codes/normal/block-compiled.js:1
+#: src/blocks/codes/normal/block-compiled__premium_only.js:1
+#: src/blocks/divider/normal/block-compiled.js:1
+#: src/blocks/divider/normal/block-compiled__premium_only.js:1
+#: src/blocks/divider/normal/block.js:178
+#: src/blocks/divider/normal/block__premium_only.js:178
+#: src/blocks/dl/normal/block-compiled.js:1
+#: src/blocks/dl/normal/block-compiled__premium_only.js:1
+#: src/blocks/headings/normal/block-compiled.js:1
+#: src/blocks/headings/normal/block-compiled__premium_only.js:1
+#: src/blocks/img/normal/block-compiled.js:1
+#: src/blocks/img/normal/block-compiled__premium_only.js:1
+#: src/blocks/lists/normal/block-compiled.js:1
+#: src/blocks/lists/normal/block-compiled__premium_only.js:1
+#: src/blocks/pie-chart/normal/block-compiled.js:1
+#: src/blocks/pie-chart/normal/block-compiled__premium_only.js:1
+#: src/blocks/speak/normal/block-compiled.js:1
+#: src/blocks/speak/normal/block-compiled__premium_only.js:1
+#: src/blocks/step/normal/block-compiled.js:1
+#: src/blocks/step/normal/block-compiled__premium_only.js:1
+#: src/blocks/tips/normal/block-compiled.js:1
+#: src/blocks/tips/normal/block-compiled__premium_only.js:1
+#: src/blocks/tweet/normal/block-compiled.js:1
+#: src/blocks/tweet/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:29
+#: src/blocks__premium_only.js:30
+#: src/blocks__premium_only.js:31
+#: src/blocks__premium_only.js:32
+#: src/blocks__premium_only.js:33
+#: src/blocks__premium_only.js:34
+#: src/blocks__premium_only.js:35
+#: src/blocks__premium_only.js:37
+#: src/blocks__premium_only.js:38
+#: src/blocks__premium_only.js:39
+#: src/blocks__premium_only.js:41
+#: src/blocks__premium_only.js:42
+#: src/blocks__premium_only.js:43
+#: src/blocks__premium_only.js:45
+msgid "Margin Bottom"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:28 src/blocks.js:29
+#: src/blocks.js:30 src/blocks.js:31
+#: src/blocks.js:32 src/blocks.js:34
+#: src/blocks.js:37 src/blocks.js:39
+#: src/blocks.js:41 src/blocks.js:43
+#: src/blocks/blockquotes/normal/block-compiled.js:1
+#: src/blocks/blockquotes/normal/block-compiled__premium_only.js:1
+#: src/blocks/buttons/normal/block-compiled.js:1
+#: src/blocks/buttons/normal/block-compiled__premium_only.js:1
+#: src/blocks/dl/normal/block-compiled.js:1
+#: src/blocks/dl/normal/block-compiled__premium_only.js:1
+#: src/blocks/headings/normal/block-compiled.js:1
+#: src/blocks/headings/normal/block-compiled__premium_only.js:1
+#: src/blocks/img/normal/block-compiled.js:1
+#: src/blocks/img/normal/block-compiled__premium_only.js:1
+#: src/blocks/lists/normal/block-compiled.js:1
+#: src/blocks/lists/normal/block-compiled__premium_only.js:1
+#: src/blocks/pie-chart/normal/block-compiled.js:1
+#: src/blocks/pie-chart/normal/block-compiled__premium_only.js:1
+#: src/blocks/speak/normal/block-compiled.js:1
+#: src/blocks/speak/normal/block-compiled__premium_only.js:1
+#: src/blocks/tips/normal/block-compiled.js:1
+#: src/blocks/tips/normal/block-compiled__premium_only.js:1
+#: src/blocks/tweet/normal/block-compiled.js:1
+#: src/blocks/tweet/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:29
+#: src/blocks__premium_only.js:30
+#: src/blocks__premium_only.js:31
+#: src/blocks__premium_only.js:32
+#: src/blocks__premium_only.js:33
+#: src/blocks__premium_only.js:35
+#: src/blocks__premium_only.js:38
+#: src/blocks__premium_only.js:41
+#: src/blocks__premium_only.js:43
+#: src/blocks__premium_only.js:45
+msgid "Padding"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:28 src/blocks.js:29
+#: src/blocks.js:30 src/blocks.js:31
+#: src/blocks.js:32 src/blocks.js:34
+#: src/blocks.js:37 src/blocks.js:39
+#: src/blocks.js:41 src/blocks.js:43
+#: src/blocks/blockquotes/normal/block-compiled.js:1
+#: src/blocks/blockquotes/normal/block-compiled__premium_only.js:1
+#: src/blocks/buttons/normal/block-compiled.js:1
+#: src/blocks/buttons/normal/block-compiled__premium_only.js:1
+#: src/blocks/dl/normal/block-compiled.js:1
+#: src/blocks/dl/normal/block-compiled__premium_only.js:1
+#: src/blocks/headings/normal/block-compiled.js:1
+#: src/blocks/headings/normal/block-compiled__premium_only.js:1
+#: src/blocks/img/normal/block-compiled.js:1
+#: src/blocks/img/normal/block-compiled__premium_only.js:1
+#: src/blocks/lists/normal/block-compiled.js:1
+#: src/blocks/lists/normal/block-compiled__premium_only.js:1
+#: src/blocks/pie-chart/normal/block-compiled.js:1
+#: src/blocks/pie-chart/normal/block-compiled__premium_only.js:1
+#: src/blocks/speak/normal/block-compiled.js:1
+#: src/blocks/speak/normal/block-compiled__premium_only.js:1
+#: src/blocks/tips/normal/block-compiled.js:1
+#: src/blocks/tips/normal/block-compiled__premium_only.js:1
+#: src/blocks/tweet/normal/block-compiled.js:1
+#: src/blocks/tweet/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:29
+#: src/blocks__premium_only.js:30
+#: src/blocks__premium_only.js:31
+#: src/blocks__premium_only.js:32
+#: src/blocks__premium_only.js:33
+#: src/blocks__premium_only.js:35
+#: src/blocks__premium_only.js:38
+#: src/blocks__premium_only.js:41
+#: src/blocks__premium_only.js:43
+#: src/blocks__premium_only.js:45
+msgid "Padding(Left & Right)"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:28 src/blocks.js:29
+#: src/blocks.js:30 src/blocks.js:31
+#: src/blocks.js:32 src/blocks.js:34
+#: src/blocks.js:37 src/blocks.js:39
+#: src/blocks.js:41 src/blocks.js:43
+#: src/blocks/blockquotes/normal/block-compiled.js:1
+#: src/blocks/blockquotes/normal/block-compiled__premium_only.js:1
+#: src/blocks/buttons/normal/block-compiled.js:1
+#: src/blocks/buttons/normal/block-compiled__premium_only.js:1
+#: src/blocks/dl/normal/block-compiled.js:1
+#: src/blocks/dl/normal/block-compiled__premium_only.js:1
+#: src/blocks/headings/normal/block-compiled.js:1
+#: src/blocks/headings/normal/block-compiled__premium_only.js:1
+#: src/blocks/img/normal/block-compiled.js:1
+#: src/blocks/img/normal/block-compiled__premium_only.js:1
+#: src/blocks/lists/normal/block-compiled.js:1
+#: src/blocks/lists/normal/block-compiled__premium_only.js:1
+#: src/blocks/pie-chart/normal/block-compiled.js:1
+#: src/blocks/pie-chart/normal/block-compiled__premium_only.js:1
+#: src/blocks/speak/normal/block-compiled.js:1
+#: src/blocks/speak/normal/block-compiled__premium_only.js:1
+#: src/blocks/tips/normal/block-compiled.js:1
+#: src/blocks/tips/normal/block-compiled__premium_only.js:1
+#: src/blocks/tweet/normal/block-compiled.js:1
+#: src/blocks/tweet/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:29
+#: src/blocks__premium_only.js:30
+#: src/blocks__premium_only.js:31
+#: src/blocks__premium_only.js:32
+#: src/blocks__premium_only.js:33
+#: src/blocks__premium_only.js:35
+#: src/blocks__premium_only.js:38
+#: src/blocks__premium_only.js:41
+#: src/blocks__premium_only.js:43
+#: src/blocks__premium_only.js:45
+msgid "Padding(Top & Bottom)"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:28 src/blocks.js:29
+#: src/blocks.js:30 src/blocks.js:31
+#: src/blocks.js:32 src/blocks.js:33
+#: src/blocks.js:34 src/blocks.js:36
+#: src/blocks.js:37 src/blocks.js:38
+#: src/blocks.js:39 src/blocks.js:40
+#: src/blocks.js:41 src/blocks.js:43
+#: src/blocks/blockquotes/normal/block-compiled.js:1
+#: src/blocks/blockquotes/normal/block-compiled__premium_only.js:1
+#: src/blocks/buttons/normal/block-compiled.js:1
+#: src/blocks/buttons/normal/block-compiled__premium_only.js:1
+#: src/blocks/codedemo/normal/block-compiled.js:1
+#: src/blocks/codedemo/normal/block-compiled__premium_only.js:1
+#: src/blocks/codes/normal/block-compiled.js:1
+#: src/blocks/codes/normal/block-compiled__premium_only.js:1
+#: src/blocks/divider/normal/block-compiled.js:1
+#: src/blocks/divider/normal/block-compiled__premium_only.js:1
+#: src/blocks/divider/normal/block.js:187
+#: src/blocks/divider/normal/block__premium_only.js:187
+#: src/blocks/dl/normal/block-compiled.js:1
+#: src/blocks/dl/normal/block-compiled__premium_only.js:1
+#: src/blocks/headings/normal/block-compiled.js:1
+#: src/blocks/headings/normal/block-compiled__premium_only.js:1
+#: src/blocks/img/normal/block-compiled.js:1
+#: src/blocks/img/normal/block-compiled__premium_only.js:1
+#: src/blocks/lists/normal/block-compiled.js:1
+#: src/blocks/lists/normal/block-compiled__premium_only.js:1
+#: src/blocks/pie-chart/normal/block-compiled.js:1
+#: src/blocks/pie-chart/normal/block-compiled__premium_only.js:1
+#: src/blocks/speak/normal/block-compiled.js:1
+#: src/blocks/speak/normal/block-compiled__premium_only.js:1
+#: src/blocks/step/normal/block-compiled.js:1
+#: src/blocks/step/normal/block-compiled__premium_only.js:1
+#: src/blocks/tips/normal/block-compiled.js:1
+#: src/blocks/tips/normal/block-compiled__premium_only.js:1
+#: src/blocks/tweet/normal/block-compiled.js:1
+#: src/blocks/tweet/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:29
+#: src/blocks__premium_only.js:30
+#: src/blocks__premium_only.js:31
+#: src/blocks__premium_only.js:32
+#: src/blocks__premium_only.js:33
+#: src/blocks__premium_only.js:34
+#: src/blocks__premium_only.js:35
+#: src/blocks__premium_only.js:37
+#: src/blocks__premium_only.js:38
+#: src/blocks__premium_only.js:39
+#: src/blocks__premium_only.js:41
+#: src/blocks__premium_only.js:42
+#: src/blocks__premium_only.js:43
+#: src/blocks__premium_only.js:45
+msgid "Main Area"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:28
+#: src/blocks/buttons/normal/block-compiled.js:1
+#: src/blocks/buttons/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:29
+msgid "Open link in new window"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:28
+#: src/blocks/buttons/normal/block-compiled.js:1
+#: src/blocks/buttons/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:29
+msgid "Button icon"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:28 src/blocks.js:29
+#: src/blocks.js:30 src/blocks.js:31
+#: src/blocks.js:32 src/blocks.js:33
+#: src/blocks.js:34 src/blocks.js:37
+#: src/blocks.js:38 src/blocks.js:39
+#: src/blocks.js:40 src/blocks.js:41
+#: src/blocks/blockquotes/normal/block-compiled.js:1
+#: src/blocks/blockquotes/normal/block-compiled__premium_only.js:1
+#: src/blocks/buttons/normal/block-compiled.js:1
+#: src/blocks/buttons/normal/block-compiled__premium_only.js:1
+#: src/blocks/codedemo/normal/block-compiled.js:1
+#: src/blocks/codedemo/normal/block-compiled__premium_only.js:1
+#: src/blocks/codes/normal/block-compiled.js:1
+#: src/blocks/codes/normal/block-compiled__premium_only.js:1
+#: src/blocks/dl/normal/block-compiled.js:1
+#: src/blocks/dl/normal/block-compiled__premium_only.js:1
+#: src/blocks/headings/normal/block-compiled.js:1
+#: src/blocks/headings/normal/block-compiled__premium_only.js:1
+#: src/blocks/img/normal/block-compiled.js:1
+#: src/blocks/img/normal/block-compiled__premium_only.js:1
+#: src/blocks/lists/normal/block-compiled.js:1
+#: src/blocks/lists/normal/block-compiled__premium_only.js:1
+#: src/blocks/speak/normal/block-compiled.js:1
+#: src/blocks/speak/normal/block-compiled__premium_only.js:1
+#: src/blocks/step/normal/block-compiled.js:1
+#: src/blocks/step/normal/block-compiled__premium_only.js:1
+#: src/blocks/tips/normal/block-compiled.js:1
+#: src/blocks/tips/normal/block-compiled__premium_only.js:1
+#: src/blocks/tweet/normal/block-compiled.js:1
+#: src/blocks/tweet/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:29
+#: src/blocks__premium_only.js:30
+#: src/blocks__premium_only.js:31
+#: src/blocks__premium_only.js:32
+#: src/blocks__premium_only.js:33
+#: src/blocks__premium_only.js:34
+#: src/blocks__premium_only.js:35
+#: src/blocks__premium_only.js:38
+#: src/blocks__premium_only.js:39
+#: src/blocks__premium_only.js:41
+#: src/blocks__premium_only.js:42
+#: src/blocks__premium_only.js:43
+msgid "Text Size"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:28 src/blocks.js:29
+#: src/blocks.js:30 src/blocks.js:31
+#: src/blocks.js:32 src/blocks.js:33
+#: src/blocks.js:34 src/blocks.js:36
+#: src/blocks.js:41
+#: src/blocks/blockquotes/normal/block-compiled.js:1
+#: src/blocks/blockquotes/normal/block-compiled__premium_only.js:1
+#: src/blocks/buttons/normal/block-compiled.js:1
+#: src/blocks/buttons/normal/block-compiled__premium_only.js:1
+#: src/blocks/codedemo/normal/block-compiled__premium_only.js:1
+#: src/blocks/codes/normal/block-compiled.js:1
+#: src/blocks/codes/normal/block-compiled__premium_only.js:1
+#: src/blocks/divider/normal/block-compiled.js:1
+#: src/blocks/divider/normal/block-compiled__premium_only.js:1
+#: src/blocks/divider/normal/block.js:197
+#: src/blocks/divider/normal/block__premium_only.js:197
+#: src/blocks/dl/normal/block-compiled.js:1
+#: src/blocks/dl/normal/block-compiled__premium_only.js:1
+#: src/blocks/headings/normal/block-compiled.js:1
+#: src/blocks/headings/normal/block-compiled__premium_only.js:1
+#: src/blocks/lists/normal/block-compiled.js:1
+#: src/blocks/lists/normal/block-compiled__premium_only.js:1
+#: src/blocks/speak/normal/block-compiled__premium_only.js:1
+#: src/blocks/tips/normal/block-compiled.js:1
+#: src/blocks/tips/normal/block-compiled__premium_only.js:1
+#: src/blocks/tweet/normal/block-compiled.js:1
+#: src/blocks/tweet/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:29
+#: src/blocks__premium_only.js:30
+#: src/blocks__premium_only.js:31
+#: src/blocks__premium_only.js:32
+#: src/blocks__premium_only.js:33
+#: src/blocks__premium_only.js:34
+#: src/blocks__premium_only.js:35
+#: src/blocks__premium_only.js:37
+#: src/blocks__premium_only.js:38
+#: src/blocks__premium_only.js:42
+#: src/blocks__premium_only.js:43
+msgid "Border Style"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:28 src/blocks.js:29
+#: src/blocks.js:30 src/blocks.js:31
+#: src/blocks.js:32 src/blocks.js:33
+#: src/blocks.js:34 src/blocks.js:36
+#: src/blocks.js:41
+#: src/blocks/blockquotes/normal/block-compiled.js:1
+#: src/blocks/blockquotes/normal/block-compiled__premium_only.js:1
+#: src/blocks/buttons/normal/block-compiled.js:1
+#: src/blocks/buttons/normal/block-compiled__premium_only.js:1
+#: src/blocks/codedemo/normal/block-compiled__premium_only.js:1
+#: src/blocks/codes/normal/block-compiled.js:1
+#: src/blocks/codes/normal/block-compiled__premium_only.js:1
+#: src/blocks/divider/normal/block-compiled.js:1
+#: src/blocks/divider/normal/block-compiled__premium_only.js:1
+#: src/blocks/divider/normal/block.js:209
+#: src/blocks/divider/normal/block__premium_only.js:209
+#: src/blocks/dl/normal/block-compiled.js:1
+#: src/blocks/dl/normal/block-compiled__premium_only.js:1
+#: src/blocks/headings/normal/block-compiled.js:1
+#: src/blocks/headings/normal/block-compiled__premium_only.js:1
+#: src/blocks/lists/normal/block-compiled.js:1
+#: src/blocks/lists/normal/block-compiled__premium_only.js:1
+#: src/blocks/speak/normal/block-compiled__premium_only.js:1
+#: src/blocks/tips/normal/block-compiled.js:1
+#: src/blocks/tips/normal/block-compiled__premium_only.js:1
+#: src/blocks/tweet/normal/block-compiled.js:1
+#: src/blocks/tweet/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:29
+#: src/blocks__premium_only.js:30
+#: src/blocks__premium_only.js:31
+#: src/blocks__premium_only.js:32
+#: src/blocks__premium_only.js:33
+#: src/blocks__premium_only.js:34
+#: src/blocks__premium_only.js:35
+#: src/blocks__premium_only.js:37
+#: src/blocks__premium_only.js:38
+#: src/blocks__premium_only.js:42
+#: src/blocks__premium_only.js:43
+msgid "Border Size"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:28 src/blocks.js:30
+#: src/blocks.js:31 src/blocks.js:32
+#: src/blocks.js:33 src/blocks.js:34
+#: src/blocks.js:39 src/blocks.js:41
+#: src/blocks/blockquotes/normal/block-compiled.js:1
+#: src/blocks/blockquotes/normal/block-compiled__premium_only.js:1
+#: src/blocks/buttons/normal/block-compiled.js:1
+#: src/blocks/buttons/normal/block-compiled__premium_only.js:1
+#: src/blocks/codedemo/normal/block-compiled__premium_only.js:1
+#: src/blocks/codes/normal/block-compiled.js:1
+#: src/blocks/codes/normal/block-compiled__premium_only.js:1
+#: src/blocks/dl/normal/block-compiled.js:1
+#: src/blocks/dl/normal/block-compiled__premium_only.js:1
+#: src/blocks/headings/normal/block-compiled__premium_only.js:1
+#: src/blocks/img/normal/block-compiled.js:1
+#: src/blocks/img/normal/block-compiled__premium_only.js:1
+#: src/blocks/lists/normal/block-compiled.js:1
+#: src/blocks/lists/normal/block-compiled__premium_only.js:1
+#: src/blocks/speak/normal/block-compiled__premium_only.js:1
+#: src/blocks/tips/normal/block-compiled.js:1
+#: src/blocks/tips/normal/block-compiled__premium_only.js:1
+#: src/blocks/tweet/normal/block-compiled.js:1
+#: src/blocks/tweet/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:29
+#: src/blocks__premium_only.js:30
+#: src/blocks__premium_only.js:31
+#: src/blocks__premium_only.js:32
+#: src/blocks__premium_only.js:33
+#: src/blocks__premium_only.js:34
+#: src/blocks__premium_only.js:35
+#: src/blocks__premium_only.js:38
+#: src/blocks__premium_only.js:41
+#: src/blocks__premium_only.js:42
+#: src/blocks__premium_only.js:43
+msgid "Border Radius"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:28 src/blocks.js:29
+#: src/blocks.js:30 src/blocks.js:31
+#: src/blocks.js:32 src/blocks.js:33
+#: src/blocks.js:34 src/blocks.js:36
+#: src/blocks.js:37 src/blocks.js:38
+#: src/blocks.js:39 src/blocks.js:40
+#: src/blocks.js:41 src/blocks.js:43
+#: src/blocks/blockquotes/normal/block-compiled.js:1
+#: src/blocks/blockquotes/normal/block-compiled__premium_only.js:1
+#: src/blocks/buttons/normal/block-compiled.js:1
+#: src/blocks/buttons/normal/block-compiled__premium_only.js:1
+#: src/blocks/codedemo/normal/block-compiled.js:1
+#: src/blocks/codedemo/normal/block-compiled__premium_only.js:1
+#: src/blocks/codes/normal/block-compiled.js:1
+#: src/blocks/codes/normal/block-compiled__premium_only.js:1
+#: src/blocks/divider/normal/block-compiled.js:1
+#: src/blocks/divider/normal/block-compiled__premium_only.js:1
+#: src/blocks/divider/normal/block.js:217
+#: src/blocks/divider/normal/block__premium_only.js:217
+#: src/blocks/dl/normal/block-compiled.js:1
+#: src/blocks/dl/normal/block-compiled__premium_only.js:1
+#: src/blocks/headings/normal/block-compiled.js:1
+#: src/blocks/headings/normal/block-compiled__premium_only.js:1
+#: src/blocks/img/normal/block-compiled.js:1
+#: src/blocks/img/normal/block-compiled__premium_only.js:1
+#: src/blocks/lists/normal/block-compiled.js:1
+#: src/blocks/lists/normal/block-compiled__premium_only.js:1
+#: src/blocks/pie-chart/normal/block-compiled.js:1
+#: src/blocks/pie-chart/normal/block-compiled__premium_only.js:1
+#: src/blocks/speak/normal/block-compiled.js:1
+#: src/blocks/speak/normal/block-compiled__premium_only.js:1
+#: src/blocks/step/normal/block-compiled.js:1
+#: src/blocks/step/normal/block-compiled__premium_only.js:1
+#: src/blocks/tips/normal/block-compiled.js:1
+#: src/blocks/tips/normal/block-compiled__premium_only.js:1
+#: src/blocks/tweet/normal/block-compiled.js:1
+#: src/blocks/tweet/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:29
+#: src/blocks__premium_only.js:30
+#: src/blocks__premium_only.js:31
+#: src/blocks__premium_only.js:32
+#: src/blocks__premium_only.js:33
+#: src/blocks__premium_only.js:34
+#: src/blocks__premium_only.js:35
+#: src/blocks__premium_only.js:37
+#: src/blocks__premium_only.js:38
+#: src/blocks__premium_only.js:39
+#: src/blocks__premium_only.js:41
+#: src/blocks__premium_only.js:42
+#: src/blocks__premium_only.js:43
+#: src/blocks__premium_only.js:45
+msgid "Color Settings"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:28 src/blocks.js:29
+#: src/blocks.js:30 src/blocks.js:32
+#: src/blocks.js:33 src/blocks.js:34
+#: src/blocks.js:37 src/blocks.js:38
+#: src/blocks.js:39 src/blocks.js:40
+#: src/blocks.js:41
+#: src/blocks/blockquotes/normal/block-compiled.js:1
+#: src/blocks/blockquotes/normal/block-compiled__premium_only.js:1
+#: src/blocks/buttons/normal/block-compiled.js:1
+#: src/blocks/buttons/normal/block-compiled__premium_only.js:1
+#: src/blocks/codedemo/normal/block-compiled.js:1
+#: src/blocks/codedemo/normal/block-compiled__premium_only.js:1
+#: src/blocks/codes/normal/block-compiled.js:1
+#: src/blocks/codes/normal/block-compiled__premium_only.js:1
+#: src/blocks/dl/normal/block-compiled.js:1
+#: src/blocks/dl/normal/block-compiled__premium_only.js:1
+#: src/blocks/headings/normal/block-compiled.js:1
+#: src/blocks/headings/normal/block-compiled__premium_only.js:1
+#: src/blocks/img/normal/block-compiled.js:1
+#: src/blocks/img/normal/block-compiled__premium_only.js:1
+#: src/blocks/lists/normal/block-compiled.js:1
+#: src/blocks/lists/normal/block-compiled__premium_only.js:1
+#: src/blocks/speak/normal/block-compiled.js:1
+#: src/blocks/speak/normal/block-compiled__premium_only.js:1
+#: src/blocks/step/normal/block-compiled.js:1
+#: src/blocks/step/normal/block-compiled__premium_only.js:1
+#: src/blocks/tweet/normal/block-compiled.js:1
+#: src/blocks/tweet/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:29
+#: src/blocks__premium_only.js:30
+#: src/blocks__premium_only.js:31
+#: src/blocks__premium_only.js:33
+#: src/blocks__premium_only.js:34
+#: src/blocks__premium_only.js:35
+#: src/blocks__premium_only.js:38
+#: src/blocks__premium_only.js:39
+#: src/blocks__premium_only.js:41
+#: src/blocks__premium_only.js:42
+#: src/blocks__premium_only.js:43
+msgid "Text Color"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:28
+#: src/blocks/buttons/normal/block-compiled.js:1
+#: src/blocks/buttons/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:29
+msgid "Text Color(Hover)"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:28 src/blocks.js:29
+#: src/blocks.js:30 src/blocks.js:31
+#: src/blocks.js:32 src/blocks.js:33
+#: src/blocks.js:34 src/blocks.js:37
+#: src/blocks.js:39 src/blocks.js:40
+#: src/blocks.js:41 src/blocks.js:43
+#: src/blocks/blockquotes/normal/block-compiled.js:1
+#: src/blocks/blockquotes/normal/block-compiled__premium_only.js:1
+#: src/blocks/buttons/normal/block-compiled.js:1
+#: src/blocks/buttons/normal/block-compiled__premium_only.js:1
+#: src/blocks/codedemo/normal/block-compiled.js:1
+#: src/blocks/codedemo/normal/block-compiled__premium_only.js:1
+#: src/blocks/codes/normal/block-compiled.js:1
+#: src/blocks/codes/normal/block-compiled__premium_only.js:1
+#: src/blocks/dl/normal/block-compiled.js:1
+#: src/blocks/dl/normal/block-compiled__premium_only.js:1
+#: src/blocks/headings/normal/block-compiled.js:1
+#: src/blocks/headings/normal/block-compiled__premium_only.js:1
+#: src/blocks/img/normal/block-compiled.js:1
+#: src/blocks/img/normal/block-compiled__premium_only.js:1
+#: src/blocks/lists/normal/block-compiled.js:1
+#: src/blocks/lists/normal/block-compiled__premium_only.js:1
+#: src/blocks/pie-chart/normal/block-compiled.js:1
+#: src/blocks/pie-chart/normal/block-compiled__premium_only.js:1
+#: src/blocks/speak/normal/block-compiled.js:1
+#: src/blocks/speak/normal/block-compiled__premium_only.js:1
+#: src/blocks/tips/normal/block-compiled.js:1
+#: src/blocks/tips/normal/block-compiled__premium_only.js:1
+#: src/blocks/tweet/normal/block-compiled.js:1
+#: src/blocks/tweet/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:29
+#: src/blocks__premium_only.js:30
+#: src/blocks__premium_only.js:31
+#: src/blocks__premium_only.js:32
+#: src/blocks__premium_only.js:33
+#: src/blocks__premium_only.js:34
+#: src/blocks__premium_only.js:35
+#: src/blocks__premium_only.js:38
+#: src/blocks__premium_only.js:41
+#: src/blocks__premium_only.js:42
+#: src/blocks__premium_only.js:43
+#: src/blocks__premium_only.js:45
+msgid "Background Color"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:28
+#: src/blocks/buttons/normal/block-compiled.js:1
+#: src/blocks/buttons/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:29
+msgid "Background Color(Hover)"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:28 src/blocks.js:29
+#: src/blocks.js:30 src/blocks.js:31
+#: src/blocks.js:32 src/blocks.js:33
+#: src/blocks.js:34 src/blocks.js:36
+#: src/blocks.js:39 src/blocks.js:41
+#: src/blocks/blockquotes/normal/block-compiled.js:1
+#: src/blocks/blockquotes/normal/block-compiled__premium_only.js:1
+#: src/blocks/buttons/normal/block-compiled.js:1
+#: src/blocks/buttons/normal/block-compiled__premium_only.js:1
+#: src/blocks/codedemo/normal/block-compiled__premium_only.js:1
+#: src/blocks/codes/normal/block-compiled.js:1
+#: src/blocks/codes/normal/block-compiled__premium_only.js:1
+#: src/blocks/divider/normal/block-compiled.js:1
+#: src/blocks/divider/normal/block-compiled__premium_only.js:1
+#: src/blocks/divider/normal/block.js:222
+#: src/blocks/divider/normal/block__premium_only.js:222
+#: src/blocks/dl/normal/block-compiled.js:1
+#: src/blocks/dl/normal/block-compiled__premium_only.js:1
+#: src/blocks/headings/normal/block-compiled.js:1
+#: src/blocks/headings/normal/block-compiled__premium_only.js:1
+#: src/blocks/img/normal/block-compiled.js:1
+#: src/blocks/img/normal/block-compiled__premium_only.js:1
+#: src/blocks/lists/normal/block-compiled.js:1
+#: src/blocks/lists/normal/block-compiled__premium_only.js:1
+#: src/blocks/speak/normal/block-compiled__premium_only.js:1
+#: src/blocks/tips/normal/block-compiled.js:1
+#: src/blocks/tips/normal/block-compiled__premium_only.js:1
+#: src/blocks/tweet/normal/block-compiled.js:1
+#: src/blocks/tweet/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:29
+#: src/blocks__premium_only.js:30
+#: src/blocks__premium_only.js:31
+#: src/blocks__premium_only.js:32
+#: src/blocks__premium_only.js:33
+#: src/blocks__premium_only.js:34
+#: src/blocks__premium_only.js:35
+#: src/blocks__premium_only.js:37
+#: src/blocks__premium_only.js:38
+#: src/blocks__premium_only.js:41
+#: src/blocks__premium_only.js:42
+#: src/blocks__premium_only.js:43
+msgid "Border Color"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:28
+#: src/blocks/buttons/normal/block-compiled.js:1
+#: src/blocks/buttons/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:29
+msgid "Border Color(Hover)"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:28
+#: src/blocks/buttons/normal/block-compiled.js:1
+#: src/blocks/buttons/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:29
+msgid "Button Text"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/blocks.js:28 src/blocks.js:29
+#: src/blocks.js:30 src/blocks.js:31
+#: src/blocks.js:32 src/blocks.js:33
+#: src/blocks.js:34 src/blocks.js:37
+#: src/blocks.js:38 src/blocks.js:39
+#: src/blocks.js:40 src/blocks.js:41
+#: src/blocks.js:43
+#: src/blocks/blockquotes/normal/block-compiled.js:1
+#: src/blocks/buttons/normal/block-compiled.js:1
+#: src/blocks/codedemo/normal/block-compiled.js:1
+#: src/blocks/codes/normal/block-compiled.js:1
+#: src/blocks/dl/normal/block-compiled.js:1
+#: src/blocks/headings/normal/block-compiled.js:1
+#: src/blocks/img/normal/block-compiled.js:1
+#: src/blocks/lists/normal/block-compiled.js:1
+#: src/blocks/pie-chart/normal/block-compiled.js:1
+#: src/blocks/speak/normal/block-compiled.js:1
+#: src/blocks/step/normal/block-compiled.js:1
+#: src/blocks/tips/normal/block-compiled.js:1
+#: src/blocks/tweet/normal/block-compiled.js:1
+msgid ""
+"This is for premium user only. You "
+"will need to activate a lisence to "
+"use this."
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/blocks.js:28 src/blocks.js:29
+#: src/blocks.js:30 src/blocks.js:31
+#: src/blocks.js:32 src/blocks.js:33
+#: src/blocks.js:34 src/blocks.js:37
+#: src/blocks.js:38 src/blocks.js:39
+#: src/blocks.js:40 src/blocks.js:41
+#: src/blocks.js:43
+#: src/blocks/blockquotes/normal/block-compiled.js:1
+#: src/blocks/buttons/normal/block-compiled.js:1
+#: src/blocks/codedemo/normal/block-compiled.js:1
+#: src/blocks/codes/normal/block-compiled.js:1
+#: src/blocks/dl/normal/block-compiled.js:1
+#: src/blocks/headings/normal/block-compiled.js:1
+#: src/blocks/img/normal/block-compiled.js:1
+#: src/blocks/lists/normal/block-compiled.js:1
+#: src/blocks/pie-chart/normal/block-compiled.js:1
+#: src/blocks/speak/normal/block-compiled.js:1
+#: src/blocks/step/normal/block-compiled.js:1
+#: src/blocks/tips/normal/block-compiled.js:1
+#: src/blocks/tweet/normal/block-compiled.js:1
+msgid "Go Premium"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:29
+#: src/blocks/headings/normal/block-compiled.js:1
+#: src/blocks/headings/normal/block-compiled__premium_only.js:1
+#: src/blocks/headings/normal/block.js:58
+#: src/blocks/headings/normal/block__premium_only.js:58
+#: src/blocks__premium_only.js:30
+msgid "UG Heading"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:29
+#: src/blocks/headings/normal/block-compiled.js:1
+#: src/blocks/headings/normal/block-compiled__premium_only.js:1
+#: src/blocks/headings/normal/block.js:62
+#: src/blocks/headings/normal/block__premium_only.js:62
+#: src/blocks__premium_only.js:30
+msgid "Heading"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:29
+#: src/blocks/headings/normal/block-compiled.js:1
+#: src/blocks/headings/normal/block-compiled__premium_only.js:1
+#: src/blocks/headings/normal/block.js:63
+#: src/blocks/headings/normal/block__premium_only.js:63
+#: src/blocks__premium_only.js:30
+msgid "Headings"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:29
+#: src/blocks/headings/normal/block-compiled.js:1
+#: src/blocks/headings/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:30
+msgid "Heading Tag"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:29
+#: src/blocks/headings/normal/block-compiled.js:1
+#: src/blocks/headings/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:30
+msgid "Heading Text"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:30
+#: src/blocks/lists/normal/block-compiled.js:1
+#: src/blocks/lists/normal/block-compiled__premium_only.js:1
+#: src/blocks/lists/normal/block.js:57
+#: src/blocks/lists/normal/block__premium_only.js:56
+#: src/blocks__premium_only.js:31
+msgid "UG List"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:30
+#: src/blocks/lists/normal/block-compiled.js:1
+#: src/blocks/lists/normal/block-compiled__premium_only.js:1
+#: src/blocks/lists/normal/block.js:61
+#: src/blocks/lists/normal/block__premium_only.js:60
+#: src/blocks__premium_only.js:31
+msgid "Lists"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:30
+#: src/blocks/lists/normal/block-compiled.js:1
+#: src/blocks/lists/normal/block-compiled__premium_only.js:1
+#: src/blocks/lists/normal/block.js:62
+#: src/blocks/lists/normal/block__premium_only.js:61
+#: src/blocks__premium_only.js:31
+msgid "List"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:30
+#: src/blocks/lists/normal/block-compiled.js:1
+#: src/blocks/lists/normal/block-compiled__premium_only.js:1
+#: src/blocks/lists/normal/block.js:187
+#: src/blocks/lists/normal/block__premium_only.js:549
+#: src/blocks__premium_only.js:31
+msgid "fas fa-times"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:30
+#: src/blocks/lists/normal/block-compiled.js:1
+#: src/blocks/lists/normal/block-compiled__premium_only.js:1
+#: src/blocks/lists/normal/block.js:188
+#: src/blocks/lists/normal/block__premium_only.js:550
+#: src/blocks__premium_only.js:31
+msgid "fas fa-chevron-circle-right"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:30
+#: src/blocks/lists/normal/block-compiled.js:1
+#: src/blocks/lists/normal/block-compiled__premium_only.js:1
+#: src/blocks/lists/normal/block.js:189
+#: src/blocks/lists/normal/block__premium_only.js:551
+#: src/blocks__premium_only.js:31
+msgid "fas fa-chevron-right"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:30
+#: src/blocks/lists/normal/block-compiled.js:1
+#: src/blocks/lists/normal/block-compiled__premium_only.js:1
+#: src/blocks/lists/normal/block.js:190
+#: src/blocks/lists/normal/block__premium_only.js:552
+#: src/blocks__premium_only.js:31
+msgid "fas fa-caret-right"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:30
+#: src/blocks/lists/normal/block-compiled.js:1
+#: src/blocks/lists/normal/block-compiled__premium_only.js:1
+#: src/blocks/lists/normal/block.js:191
+#: src/blocks/lists/normal/block__premium_only.js:553
+#: src/blocks__premium_only.js:31
+msgid "fas fa-arrow-right"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:30
+#: src/blocks/lists/normal/block-compiled.js:1
+#: src/blocks/lists/normal/block-compiled__premium_only.js:1
+#: src/blocks/lists/normal/block.js:192
+#: src/blocks/lists/normal/block__premium_only.js:554
+#: src/blocks__premium_only.js:31
+msgid "fas fa-hand-point-right"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:30
+#: src/blocks/lists/normal/block-compiled.js:1
+#: src/blocks/lists/normal/block-compiled__premium_only.js:1
+#: src/blocks/lists/normal/block.js:193
+#: src/blocks/lists/normal/block__premium_only.js:555
+#: src/blocks__premium_only.js:31
+msgid "fas fa-caret-square-right"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:30
+#: src/blocks/lists/normal/block-compiled.js:1
+#: src/blocks/lists/normal/block-compiled__premium_only.js:1
+#: src/blocks/lists/normal/block.js:194
+#: src/blocks/lists/normal/block__premium_only.js:556
+#: src/blocks__premium_only.js:31
+msgid "fas fa-arrow-circle-right"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:30
+#: src/blocks/lists/normal/block-compiled.js:1
+#: src/blocks/lists/normal/block-compiled__premium_only.js:1
+#: src/blocks/lists/normal/block.js:195
+#: src/blocks/lists/normal/block__premium_only.js:557
+#: src/blocks__premium_only.js:31
+msgid "fas fa-angle-double-right"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:30
+#: src/blocks/lists/normal/block-compiled.js:1
+#: src/blocks/lists/normal/block-compiled__premium_only.js:1
+#: src/blocks/lists/normal/block.js:196
+#: src/blocks/lists/normal/block__premium_only.js:558
+#: src/blocks__premium_only.js:31
+msgid "fas fa-lightbulb"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:30
+#: src/blocks/lists/normal/block-compiled.js:1
+#: src/blocks/lists/normal/block-compiled__premium_only.js:1
+#: src/blocks/lists/normal/block.js:197
+#: src/blocks/lists/normal/block__premium_only.js:559
+#: src/blocks__premium_only.js:31
+msgid "fas fa-feather"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:30
+#: src/blocks/lists/normal/block-compiled.js:1
+#: src/blocks/lists/normal/block-compiled__premium_only.js:1
+#: src/blocks/lists/normal/block.js:198
+#: src/blocks/lists/normal/block__premium_only.js:560
+#: src/blocks__premium_only.js:31
+msgid "fas fa-star"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:30
+#: src/blocks/lists/normal/block-compiled.js:1
+#: src/blocks/lists/normal/block-compiled__premium_only.js:1
+#: src/blocks/lists/normal/block.js:199
+#: src/blocks/lists/normal/block__premium_only.js:561
+#: src/blocks__premium_only.js:31
+msgid "fas fa-list-ul"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:30
+#: src/blocks/lists/normal/block-compiled.js:1
+#: src/blocks/lists/normal/block-compiled__premium_only.js:1
+#: src/blocks/lists/normal/block.js:200
+#: src/blocks/lists/normal/block__premium_only.js:562
+#: src/blocks__premium_only.js:31
+msgid "fas fa-list"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:30
+#: src/blocks/lists/normal/block-compiled.js:1
+#: src/blocks/lists/normal/block-compiled__premium_only.js:1
+#: src/blocks/lists/normal/block.js:201
+#: src/blocks/lists/normal/block__premium_only.js:563
+#: src/blocks__premium_only.js:31
+msgid "fas fa-circle"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:30
+#: src/blocks/lists/normal/block-compiled.js:1
+#: src/blocks/lists/normal/block-compiled__premium_only.js:1
+#: src/blocks/lists/normal/block.js:202
+#: src/blocks/lists/normal/block__premium_only.js:564
+#: src/blocks__premium_only.js:31
+msgid "fas fa-info-circle"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:30
+#: src/blocks/lists/normal/block-compiled.js:1
+#: src/blocks/lists/normal/block-compiled__premium_only.js:1
+#: src/blocks/lists/normal/block.js:203
+#: src/blocks/lists/normal/block__premium_only.js:565
+#: src/blocks__premium_only.js:31
+msgid "fas fa-exclamation-circle"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:30
+#: src/blocks/lists/normal/block-compiled.js:1
+#: src/blocks/lists/normal/block-compiled__premium_only.js:1
+#: src/blocks/lists/normal/block.js:204
+#: src/blocks/lists/normal/block__premium_only.js:566
+#: src/blocks__premium_only.js:31
+msgid "fas fa-check"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:30
+#: src/blocks/lists/normal/block-compiled.js:1
+#: src/blocks/lists/normal/block-compiled__premium_only.js:1
+#: src/blocks/lists/normal/block.js:205
+#: src/blocks/lists/normal/block__premium_only.js:567
+#: src/blocks__premium_only.js:31
+msgid "fas fa-check-circle"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:30
+#: src/blocks/lists/normal/block-compiled.js:1
+#: src/blocks/lists/normal/block-compiled__premium_only.js:1
+#: src/blocks/lists/normal/block.js:206
+#: src/blocks/lists/normal/block__premium_only.js:568
+#: src/blocks__premium_only.js:31
+msgid "fas fa-archive"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:30
+#: src/blocks/lists/normal/block-compiled.js:1
+#: src/blocks/lists/normal/block-compiled__premium_only.js:1
+#: src/blocks/lists/normal/block.js:207
+#: src/blocks/lists/normal/block__premium_only.js:569
+#: src/blocks__premium_only.js:31
+msgid "fas fa-tag"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:30
+#: src/blocks/lists/normal/block-compiled.js:1
+#: src/blocks/lists/normal/block-compiled__premium_only.js:1
+#: src/blocks/lists/normal/block.js:208
+#: src/blocks/lists/normal/block__premium_only.js:570
+#: src/blocks__premium_only.js:31
+msgid "fas fa-hashtag"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:30
+#: src/blocks/lists/normal/block-compiled.js:1
+#: src/blocks/lists/normal/block-compiled__premium_only.js:1
+#: src/blocks/lists/normal/block.js:209
+#: src/blocks/lists/normal/block__premium_only.js:571
+#: src/blocks__premium_only.js:31
+msgid "fas fa-bookmark"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:30
+#: src/blocks/lists/normal/block-compiled.js:1
+#: src/blocks/lists/normal/block-compiled__premium_only.js:1
+#: src/blocks/lists/normal/block.js:210
+#: src/blocks/lists/normal/block__premium_only.js:572
+#: src/blocks__premium_only.js:31
+msgid "fas fa-book"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:30
+#: src/blocks/lists/normal/block-compiled.js:1
+#: src/blocks/lists/normal/block-compiled__premium_only.js:1
+#: src/blocks/lists/normal/block.js:211
+#: src/blocks/lists/normal/block__premium_only.js:573
+#: src/blocks__premium_only.js:31
+msgid "fas fa-bell"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:30
+#: src/blocks/lists/normal/block-compiled.js:1
+#: src/blocks/lists/normal/block-compiled__premium_only.js:1
+#: src/blocks/lists/normal/block.js:212
+#: src/blocks/lists/normal/block__premium_only.js:574
+#: src/blocks__premium_only.js:31
+msgid "fas fa-clipboard-check"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:30
+#: src/blocks/lists/normal/block-compiled.js:1
+#: src/blocks/lists/normal/block-compiled__premium_only.js:1
+#: src/blocks/lists/normal/block.js:213
+#: src/blocks/lists/normal/block__premium_only.js:575
+#: src/blocks__premium_only.js:31
+msgid "fas fa-comment"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:30
+#: src/blocks/lists/normal/block-compiled.js:1
+#: src/blocks/lists/normal/block-compiled__premium_only.js:1
+#: src/blocks/lists/normal/block.js:214
+#: src/blocks/lists/normal/block__premium_only.js:576
+#: src/blocks__premium_only.js:31
+msgid "fas fa-comment-alt"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:30
+#: src/blocks/lists/normal/block-compiled.js:1
+#: src/blocks/lists/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:31
+msgid "li Padding(Top & Bottom)"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:30
+#: src/blocks/lists/normal/block-compiled.js:1
+#: src/blocks/lists/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:31
+msgid "List icon"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:30
+#: src/blocks/lists/normal/block-compiled.js:1
+#: src/blocks/lists/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:31
+msgid "List Text"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:31
+#: src/blocks/tips/normal/block-compiled.js:1
+#: src/blocks/tips/normal/block-compiled__premium_only.js:1
+#: src/blocks/tips/normal/block.js:58
+#: src/blocks/tips/normal/block__premium_only.js:58
+#: src/blocks__premium_only.js:32
+msgid "UG Tips"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:31
+#: src/blocks/tips/normal/block-compiled.js:1
+#: src/blocks/tips/normal/block-compiled__premium_only.js:1
+#: src/blocks/tips/normal/block.js:62
+#: src/blocks/tips/normal/block__premium_only.js:62
+#: src/blocks__premium_only.js:32
+msgid "Tips"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:31
+#: src/blocks/tips/normal/block-compiled.js:1
+#: src/blocks/tips/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:32
+msgid "Tips Title"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:31
+#: src/blocks/tips/normal/block-compiled.js:1
+#: src/blocks/tips/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:32
+msgid "Tips Title Border Color"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:31
+#: src/blocks/tips/normal/block-compiled.js:1
+#: src/blocks/tips/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:32
+msgid "Tips Title Color"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:31
+#: src/blocks/tips/normal/block-compiled.js:1
+#: src/blocks/tips/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:32
+msgid "Tips Title Background Color"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:32
+#: src/blocks/blockquotes/normal/block-compiled.js:1
+#: src/blocks/blockquotes/normal/block-compiled__premium_only.js:1
+#: src/blocks/blockquotes/normal/block.js:57
+#: src/blocks/blockquotes/normal/block__premium_only.js:57
+#: src/blocks__premium_only.js:33
+msgid "UG Blockquote"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:32
+#: src/blocks/blockquotes/normal/block-compiled.js:1
+#: src/blocks/blockquotes/normal/block-compiled__premium_only.js:1
+#: src/blocks/blockquotes/normal/block.js:61
+#: src/blocks/blockquotes/normal/block__premium_only.js:61
+#: src/blocks__premium_only.js:33
+msgid "Quotes"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:32
+#: src/blocks/blockquotes/normal/block-compiled.js:1
+#: src/blocks/blockquotes/normal/block-compiled__premium_only.js:1
+#: src/blocks/blockquotes/normal/block.js:62
+#: src/blocks/blockquotes/normal/block__premium_only.js:62
+#: src/blocks__premium_only.js:33
+msgid "Quote"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:32
+#: src/blocks/blockquotes/normal/block-compiled.js:1
+#: src/blocks/blockquotes/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:33
+msgid "Author Area"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:32
+#: src/blocks/blockquotes/normal/block-compiled.js:1
+#: src/blocks/blockquotes/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:33
+msgid "Author Size"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:32 src/blocks.js:34
+#: src/blocks/blockquotes/normal/block-compiled.js:1
+#: src/blocks/blockquotes/normal/block-compiled__premium_only.js:1
+#: src/blocks/lists/normal/block-compiled__premium_only.js:1
+#: src/blocks/tweet/normal/block-compiled.js:1
+#: src/blocks/tweet/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:31
+#: src/blocks__premium_only.js:33
+#: src/blocks__premium_only.js:35
+msgid "Icon Color"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:32
+#: src/blocks/blockquotes/normal/block-compiled.js:1
+#: src/blocks/blockquotes/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:33
+msgid "Quote Text"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:32
+#: src/blocks/blockquotes/normal/block-compiled.js:1
+#: src/blocks/blockquotes/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:33
+msgid "Ouote author"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:33
+#: src/blocks/codes/normal/block-compiled.js:1
+#: src/blocks/codes/normal/block-compiled__premium_only.js:1
+#: src/blocks/codes/normal/block.js:57
+#: src/blocks/codes/normal/block__premium_only.js:57
+#: src/blocks__premium_only.js:34
+msgid "UG Code"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:33
+#: src/blocks/codes/normal/block-compiled.js:1
+#: src/blocks/codes/normal/block-compiled__premium_only.js:1
+#: src/blocks/codes/normal/block.js:61
+#: src/blocks/codes/normal/block__premium_only.js:61
+#: src/blocks__premium_only.js:34
+msgid "Codes"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:33
+#: src/blocks/codes/normal/block-compiled.js:1
+#: src/blocks/codes/normal/block-compiled__premium_only.js:1
+#: src/blocks/codes/normal/block.js:62
+#: src/blocks/codes/normal/block__premium_only.js:62
+#: src/blocks__premium_only.js:34
+msgid "Code"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:33 src/blocks.js:40
+#: src/blocks/codedemo/normal/block-compiled.js:1
+#: src/blocks/codedemo/normal/block-compiled__premium_only.js:1
+#: src/blocks/codes/normal/block-compiled.js:1
+#: src/blocks/codes/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:34
+#: src/blocks__premium_only.js:42
+msgid "Language"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:33 src/blocks.js:40
+#: src/blocks/codedemo/normal/block-compiled.js:1
+#: src/blocks/codedemo/normal/block-compiled__premium_only.js:1
+#: src/blocks/codes/normal/block-compiled.js:1
+#: src/blocks/codes/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:34
+#: src/blocks__premium_only.js:42
+msgid ""
+"If there is not listed your code "
+"type in this, please let me know by "
+"contact form."
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:33
+#: src/blocks/codes/normal/block-compiled.js:1
+#: src/blocks/codes/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:34
+msgid "Langauge Color"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:33
+#: src/blocks/codes/normal/block-compiled.js:1
+#: src/blocks/codes/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:34
+msgid "Language Background Color"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:33 src/blocks.js:40
+#: src/blocks/codedemo/normal/block-compiled.js:1
+#: src/blocks/codedemo/normal/block-compiled__premium_only.js:1
+#: src/blocks/codes/normal/block-compiled.js:1
+#: src/blocks/codes/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:34
+#: src/blocks__premium_only.js:42
+msgid ""
+"These are applied to Code Area only, "
+"and applied to only front screen."
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:33
+#: src/blocks/codedemo/normal/block-compiled__premium_only.js:1
+#: src/blocks/codes/normal/block-compiled.js:1
+#: src/blocks/codes/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:34
+#: src/blocks__premium_only.js:42
+msgid "Copy"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:34
+#: src/blocks/tweet/normal/block-compiled.js:1
+#: src/blocks/tweet/normal/block-compiled__premium_only.js:1
+#: src/blocks/tweet/normal/block.js:57
+#: src/blocks/tweet/normal/block__premium_only.js:57
+#: src/blocks__premium_only.js:35
+msgid " UG Tweet"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:34
+#: src/blocks/tweet/normal/block-compiled.js:1
+#: src/blocks/tweet/normal/block-compiled__premium_only.js:1
+#: src/blocks/tweet/normal/block.js:61
+#: src/blocks/tweet/normal/block__premium_only.js:61
+#: src/blocks__premium_only.js:35
+msgid "Click to tweet"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:34
+#: src/blocks/tweet/normal/block-compiled.js:1
+#: src/blocks/tweet/normal/block-compiled__premium_only.js:1
+#: src/blocks/tweet/normal/block.js:62
+#: src/blocks/tweet/normal/block__premium_only.js:62
+#: src/blocks__premium_only.js:35
+msgid "Twitter"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:34
+#: src/blocks/tweet/normal/block-compiled.js:1
+#: src/blocks/tweet/normal/block-compiled__premium_only.js:1
+#: src/blocks/tweet/normal/block.js:207
+#: src/blocks/tweet/normal/block__premium_only.js:475
+#: src/blocks__premium_only.js:35
+msgid "fab fa-twitter"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:34
+#: src/blocks/tweet/normal/block-compiled.js:1
+#: src/blocks/tweet/normal/block-compiled__premium_only.js:1
+#: src/blocks/tweet/normal/block.js:208
+#: src/blocks/tweet/normal/block__premium_only.js:476
+#: src/blocks__premium_only.js:35
+msgid "fab fa-twitter-square"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:34
+#: src/blocks/tweet/normal/block-compiled.js:1
+#: src/blocks/tweet/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:35
+msgid "HashTag"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:34
+#: src/blocks/tweet/normal/block-compiled.js:1
+#: src/blocks/tweet/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:35
+msgid ""
+"Add some hashtags. Comma separated "
+"values. Not include #"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:34
+#: src/blocks/tweet/normal/block-compiled.js:1
+#: src/blocks/tweet/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:35
+msgid "Via"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:34
+#: src/blocks/tweet/normal/block-compiled.js:1
+#: src/blocks/tweet/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:35
+msgid ""
+"Add a twitter account id. Not "
+"include @"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:34
+#: src/blocks/tweet/normal/block-compiled.js:1
+#: src/blocks/tweet/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:35
+msgid "Click To Tweet Button Text"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:34
+#: src/blocks/tweet/normal/block-compiled.js:1
+#: src/blocks/tweet/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:35
+msgid "Icon Size"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:34
+#: src/blocks/tweet/normal/block-compiled.js:1
+#: src/blocks/tweet/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:35
+msgid "Click to tweet Text"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:35
+#: src/blocks/spacer/normal/block-compiled.js:1
+#: src/blocks/spacer/normal/block-compiled__premium_only.js:1
+#: src/blocks/spacer/normal/block.js:58
+#: src/blocks/spacer/normal/block__premium_only.js:58
+#: src/blocks__premium_only.js:36
+msgid "UG Spacer"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:35
+#: src/blocks/spacer/normal/block-compiled.js:1
+#: src/blocks/spacer/normal/block-compiled__premium_only.js:1
+#: src/blocks/spacer/normal/block.js:62
+#: src/blocks/spacer/normal/block__premium_only.js:62
+#: src/blocks__premium_only.js:36
+msgid "Spacers"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:35
+#: src/blocks/spacer/normal/block-compiled.js:1
+#: src/blocks/spacer/normal/block-compiled__premium_only.js:1
+#: src/blocks/spacer/normal/block.js:63
+#: src/blocks/spacer/normal/block__premium_only.js:63
+#: src/blocks__premium_only.js:36
+msgid "Spacer"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:35
+#: src/blocks/spacer/normal/block-compiled.js:1
+#: src/blocks/spacer/normal/block-compiled__premium_only.js:1
+#: src/blocks/spacer/normal/block.js:108
+#: src/blocks/spacer/normal/block__premium_only.js:108
+#: src/blocks__premium_only.js:36
+msgid "Height"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:36
+#: src/blocks/divider/normal/block-compiled.js:1
+#: src/blocks/divider/normal/block-compiled__premium_only.js:1
+#: src/blocks/divider/normal/block.js:57
+#: src/blocks/divider/normal/block__premium_only.js:57
+#: src/blocks__premium_only.js:37
+msgid "UG Divider"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:36
+#: src/blocks/divider/normal/block-compiled.js:1
+#: src/blocks/divider/normal/block-compiled__premium_only.js:1
+#: src/blocks/divider/normal/block.js:61
+#: src/blocks/divider/normal/block__premium_only.js:61
+#: src/blocks__premium_only.js:37
+msgid "Dividers"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:36
+#: src/blocks/divider/normal/block-compiled.js:1
+#: src/blocks/divider/normal/block-compiled__premium_only.js:1
+#: src/blocks/divider/normal/block.js:62
+#: src/blocks/divider/normal/block__premium_only.js:62
+#: src/blocks__premium_only.js:37
+msgid "Divider"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:36
+#: src/blocks/divider/normal/block-compiled.js:1
+#: src/blocks/divider/normal/block-compiled__premium_only.js:1
+#: src/blocks/divider/normal/block.js:159
+#: src/blocks/divider/normal/block__premium_only.js:159
+#: src/blocks__premium_only.js:37
+msgid ""
+"You can change template pattern "
+"here. If you want to know more about "
+"type of templates. Please view "
+"Document on website."
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:36
+#: src/blocks/divider/normal/block-compiled.js:1
+#: src/blocks/divider/normal/block-compiled__premium_only.js:1
+#: src/blocks/divider/normal/block.js:161
+#: src/blocks/divider/normal/block__premium_only.js:161
+#: src/blocks__premium_only.js:37
+msgid "Pattern 1"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:36
+#: src/blocks/divider/normal/block-compiled.js:1
+#: src/blocks/divider/normal/block-compiled__premium_only.js:1
+#: src/blocks/divider/normal/block.js:189
+#: src/blocks/divider/normal/block__premium_only.js:189
+#: src/blocks__premium_only.js:37
+msgid "Width(%)"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:37
+#: src/blocks/speak/normal/block-compiled.js:1
+#: src/blocks/speak/normal/block-compiled__premium_only.js:1
+#: src/blocks/speak/normal/block.js:56
+#: src/blocks/speak/normal/block__premium_only.js:57
+#: src/blocks__premium_only.js:38
+msgid "UG Speak"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:37 src/blocks.js:39
+#: src/blocks/img/normal/block-compiled.js:1
+#: src/blocks/img/normal/block-compiled__premium_only.js:1
+#: src/blocks/img/normal/block.js:190
+#: src/blocks/img/normal/block__premium_only.js:190
+#: src/blocks/speak/normal/block-compiled.js:1
+#: src/blocks/speak/normal/block-compiled__premium_only.js:1
+#: src/blocks/speak/normal/block.js:200
+#: src/blocks/speak/normal/block__premium_only.js:221
+#: src/blocks/step/inner/block-compiled__premium_only.js:1
+#: src/blocks/step/inner/block__premium_only.js:165
+#: src/blocks__premium_only.js:38
+#: src/blocks__premium_only.js:40
+#: src/blocks__premium_only.js:41
+msgid "Change image"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:37 src/blocks.js:39
+#: src/blocks/img/normal/block-compiled.js:1
+#: src/blocks/img/normal/block-compiled__premium_only.js:1
+#: src/blocks/img/normal/block.js:198
+#: src/blocks/img/normal/block__premium_only.js:198
+#: src/blocks/speak/normal/block-compiled.js:1
+#: src/blocks/speak/normal/block-compiled__premium_only.js:1
+#: src/blocks/speak/normal/block.js:208
+#: src/blocks/speak/normal/block__premium_only.js:229
+#: src/blocks/step/inner/block-compiled__premium_only.js:1
+#: src/blocks/step/inner/block__premium_only.js:173
+#: src/blocks__premium_only.js:38
+#: src/blocks__premium_only.js:40
+#: src/blocks__premium_only.js:41
+msgid "Remove image"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:37
+#: src/blocks/speak/normal/block-compiled.js:1
+#: src/blocks/speak/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:38
+msgid "Speak Name"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:37
+#: src/blocks/speak/normal/block-compiled.js:1
+#: src/blocks/speak/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:38
+msgid "Speak Name Size"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:37
+#: src/blocks/speak/normal/block-compiled.js:1
+#: src/blocks/speak/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:38
+msgid "Speak Color"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:37
+#: src/blocks/speak/normal/block-compiled.js:1
+#: src/blocks/speak/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:38
+msgid "Speak Img"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:37
+#: src/blocks/speak/normal/block-compiled.js:1
+#: src/blocks/speak/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:38
+msgid "Speak Img Size"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:37
+#: src/blocks/speak/normal/block-compiled.js:1
+#: src/blocks/speak/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:38
+msgid ""
+"Recommend size is 150x150. Please "
+"use a square size image to use this "
+"properly."
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:38
+#: src/blocks/step/normal/block-compiled.js:1
+#: src/blocks/step/normal/block-compiled__premium_only.js:1
+#: src/blocks/step/normal/block.js:57
+#: src/blocks/step/normal/block__premium_only.js:57
+#: src/blocks__premium_only.js:39
+msgid "UG Step"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:38
+#: src/blocks/step/inner/block-compiled__premium_only.js:1
+#: src/blocks/step/normal/block-compiled.js:1
+#: src/blocks/step/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:39
+#: src/blocks__premium_only.js:40
+msgid "Step Name"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:38
+#: src/blocks/step/normal/block-compiled.js:1
+#: src/blocks/step/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:39
+msgid "Step Name Color"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:38
+#: src/blocks/step/normal/block-compiled.js:1
+#: src/blocks/step/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:39
+msgid "Step title"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:38
+#: src/blocks/step/normal/block-compiled.js:1
+#: src/blocks/step/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:39
+msgid "Step Title Size"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:38
+#: src/blocks/step/normal/block-compiled.js:1
+#: src/blocks/step/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:39
+msgid "Step Title Color"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:38
+#: src/blocks/step/normal/block-compiled.js:1
+#: src/blocks/step/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:39
+msgid "Step Icon"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:38
+#: src/blocks/step/normal/block-compiled.js:1
+#: src/blocks/step/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:39
+msgid "Step Icon Color"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:38
+#: src/blocks/step/normal/block-compiled.js:1
+#: src/blocks/step/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:39
+msgid "Step Border Color"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:39
+#: src/blocks/img/normal/block-compiled.js:1
+#: src/blocks/img/normal/block-compiled__premium_only.js:1
+#: src/blocks/img/normal/block.js:57
+#: src/blocks/img/normal/block__premium_only.js:57
+#: src/blocks__premium_only.js:41
+msgid "UG Image"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:39
+#: src/blocks/img/normal/block-compiled.js:1
+#: src/blocks/img/normal/block-compiled__premium_only.js:1
+#: src/blocks/img/normal/block.js:61
+#: src/blocks/img/normal/block__premium_only.js:61
+#: src/blocks__premium_only.js:41
+msgid "Img"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:40
+#: src/blocks/codedemo/normal/block-compiled.js:1
+#: src/blocks/codedemo/normal/block-compiled__premium_only.js:1
+#: src/blocks/codedemo/normal/block.js:59
+#: src/blocks/codedemo/normal/block__premium_only.js:59
+#: src/blocks__premium_only.js:42
+msgid "UG Code Demo"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:40
+#: src/blocks/codedemo/normal/block-compiled.js:1
+#: src/blocks/codedemo/normal/block-compiled__premium_only.js:1
+#: src/blocks/codedemo/normal/block.js:63
+#: src/blocks/codedemo/normal/block__premium_only.js:63
+#: src/blocks__premium_only.js:42
+msgid "Code demos"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:40
+#: src/blocks/codedemo/normal/block-compiled.js:1
+#: src/blocks/codedemo/normal/block-compiled__premium_only.js:1
+#: src/blocks/codedemo/normal/block.js:64
+#: src/blocks/codedemo/normal/block__premium_only.js:64
+#: src/blocks__premium_only.js:42
+msgid "Code demo"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:40
+#: src/blocks/codedemo/normal/block-compiled.js:1
+#: src/blocks/codedemo/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:42
+msgid "HTML"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:40
+#: src/blocks/codedemo/normal/block-compiled.js:1
+#: src/blocks/codedemo/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:42
+msgid ""
+"If you want to add uncompiled code "
+"of html, you can do it by turning on "
+"this. However, this is not used for "
+"displaying the output of markup."
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:40
+#: src/blocks/codedemo/normal/block-compiled.js:1
+#: src/blocks/codedemo/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:42
+msgid "Preprocessor(HTML)"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:40
+#: src/blocks/codedemo/normal/block-compiled.js:1
+#: src/blocks/codedemo/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:42
+msgid "CSS"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:40
+#: src/blocks/codedemo/normal/block-compiled.js:1
+#: src/blocks/codedemo/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:42
+msgid ""
+"If you want to add uncompiled code "
+"of css, you can do it by turning on "
+"this. However, this is not used for "
+"displaying the output of markup."
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:40
+#: src/blocks/codedemo/normal/block-compiled.js:1
+#: src/blocks/codedemo/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:42
+msgid "Preprocessor(CSS)"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/blocks.js:40
+#: src/blocks/codedemo/normal/block-compiled.js:1
+msgid "Javascript"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:40
+#: src/blocks/codedemo/normal/block-compiled.js:1
+#: src/blocks/codedemo/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:42
+msgid ""
+"If you want to add uncompiled code "
+"of javascript, you can do it by "
+"turning on this. However, this is "
+"not used for displaying the output "
+"of markup."
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/blocks.js:40
+#: src/blocks/codedemo/normal/block-compiled.js:1
+msgid "Preprocessor(Javascript)"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:41
+#: src/blocks/dl/normal/block-compiled.js:1
+#: src/blocks/dl/normal/block-compiled__premium_only.js:1
+#: src/blocks/dl/normal/block.js:58
+#: src/blocks/dl/normal/block__premium_only.js:58
+#: src/blocks__premium_only.js:43
+msgid "UG Dl"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:41 src/blocks.js:42
+#: src/blocks/dl/inline/block-compiled.js:1
+#: src/blocks/dl/inline/block-compiled__premium_only.js:1
+#: src/blocks/dl/inline/block.js:62
+#: src/blocks/dl/inline/block__premium_only.js:62
+#: src/blocks/dl/normal/block-compiled.js:1
+#: src/blocks/dl/normal/block-compiled__premium_only.js:1
+#: src/blocks/dl/normal/block.js:62
+#: src/blocks/dl/normal/block__premium_only.js:62
+#: src/blocks__premium_only.js:43
+#: src/blocks__premium_only.js:44
+msgid "Dls"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:41 src/blocks.js:42
+#: src/blocks/dl/inline/block-compiled.js:1
+#: src/blocks/dl/inline/block-compiled__premium_only.js:1
+#: src/blocks/dl/inline/block.js:63
+#: src/blocks/dl/inline/block__premium_only.js:63
+#: src/blocks/dl/normal/block-compiled.js:1
+#: src/blocks/dl/normal/block-compiled__premium_only.js:1
+#: src/blocks/dl/normal/block.js:63
+#: src/blocks/dl/normal/block__premium_only.js:63
+#: src/blocks__premium_only.js:43
+#: src/blocks__premium_only.js:44
+msgid "Dl"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:41
+#: src/blocks/dl/normal/block-compiled.js:1
+#: src/blocks/dl/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:43
+msgid "DL Title"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:41
+#: src/blocks/dl/normal/block-compiled.js:1
+#: src/blocks/dl/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:43
+msgid "DL Title Size"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:41
+#: src/blocks/dl/normal/block-compiled.js:1
+#: src/blocks/dl/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:43
+msgid "DL Title Color"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:41
+#: src/blocks/dl/normal/block-compiled.js:1
+#: src/blocks/dl/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:43
+msgid "DL Title Background Color"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:41
+#: src/blocks/dl/normal/block-compiled.js:1
+#: src/blocks/dl/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:43
+msgid "DL Title Border Color"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:41
+#: src/blocks/dl/normal/block-compiled.js:1
+#: src/blocks/dl/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:43
+msgid "Dl Title"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:42
+#: src/blocks/dl/inline/block-compiled.js:1
+#: src/blocks/dl/inline/block-compiled__premium_only.js:1
+#: src/blocks/dl/inline/block.js:58
+#: src/blocks/dl/inline/block__premium_only.js:58
+#: src/blocks__premium_only.js:44
+msgid "UG dl inline"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:42
+#: src/blocks/dl/inline/block-compiled.js:1
+#: src/blocks/dl/inline/block-compiled__premium_only.js:1
+#: src/blocks/dl/inline/block.js:117
+#: src/blocks/dl/inline/block__premium_only.js:117
+#: src/blocks__premium_only.js:44
+msgid "dt Text"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:43
+#: src/blocks/pie-chart/normal/block-compiled.js:1
+#: src/blocks/pie-chart/normal/block-compiled__premium_only.js:1
+#: src/blocks/pie-chart/normal/block.js:61
+#: src/blocks/pie-chart/normal/block__premium_only.js:61
+#: src/blocks__premium_only.js:45
+msgid "UG Pie Chart"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:43
+#: src/blocks/pie-chart/normal/block-compiled.js:1
+#: src/blocks/pie-chart/normal/block-compiled__premium_only.js:1
+#: src/blocks/pie-chart/normal/block.js:65
+#: src/blocks/pie-chart/normal/block.js:66
+#: src/blocks/pie-chart/normal/block__premium_only.js:65
+#: src/blocks/pie-chart/normal/block__premium_only.js:66
+#: src/blocks__premium_only.js:45
+msgid "Chart"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:43
+#: src/blocks/pie-chart/normal/block-compiled.js:1
+#: src/blocks/pie-chart/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:45
+msgid "Circle Title"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:43
+#: src/blocks/pie-chart/normal/block-compiled.js:1
+#: src/blocks/pie-chart/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:45
+msgid "Circle Title Size"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:43
+#: src/blocks/pie-chart/normal/block-compiled.js:1
+#: src/blocks/pie-chart/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:45
+msgid "Circle Title Color"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:43
+#: src/blocks/pie-chart/normal/block-compiled.js:1
+#: src/blocks/pie-chart/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:45
+msgid "Circle Title Background Color"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:43
+#: src/blocks/pie-chart/normal/block-compiled.js:1
+#: src/blocks/pie-chart/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:45
+msgid "Circle Rate"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:43
+#: src/blocks/pie-chart/normal/block-compiled.js:1
+#: src/blocks/pie-chart/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:45
+msgid "Circle Size"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:43
+#: src/blocks/pie-chart/normal/block-compiled.js:1
+#: src/blocks/pie-chart/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:45
+msgid "Circle Rate Size"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/blocks.js:43
+#: src/blocks/pie-chart/normal/block-compiled.js:1
+msgid "Circle Label Size"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:43
+#: src/blocks/pie-chart/normal/block-compiled.js:1
+#: src/blocks/pie-chart/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:45
+msgid "Circle Color"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks.js:43
+#: src/blocks/pie-chart/normal/block-compiled.js:1
+#: src/blocks/pie-chart/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:45
+msgid "Circle Background Color"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/blocks.js:43
+#: src/blocks/pie-chart/normal/block-compiled.js:1
+msgid "Circle Label Color"
+msgstr ""
+
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks/buttons/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:29
+msgid "GA"
+msgstr ""
+
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks/buttons/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:29
+msgid "Use GA Tag"
+msgstr ""
+
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks/buttons/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:29
+msgid "dataGatracking"
+msgstr ""
+
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks/buttons/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:29
+msgid "dataEventype"
+msgstr ""
+
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks/buttons/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:29
+msgid "dataTarget"
+msgstr ""
+
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks/buttons/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:29
+msgid "dataGaLabel"
+msgstr ""
+
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks/headings/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:30
+msgid "Decimal Color"
+msgstr ""
+
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks/lists/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:31
+msgid "li Margin Bottom"
+msgstr ""
+
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks/lists/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:31
+msgid "Border Left Size"
+msgstr ""
+
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks/lists/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:31
+msgid "Border Left Color"
+msgstr ""
+
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks/blockquotes/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:33
+msgid "Border"
+msgstr ""
+
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks/img/normal/block-compiled__premium_only.js:1
+#: src/blocks/speak/normal/block-compiled__premium_only.js:1
+#: src/blocks/step/inner/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:38
+#: src/blocks__premium_only.js:40
+#: src/blocks__premium_only.js:41
+msgid "Choose image"
+msgstr ""
+
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks/step/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:39
+msgid "Step Meta"
+msgstr ""
+
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks/step/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:39
+msgid "Step Meta Name"
+msgstr ""
+
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks/step/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:39
+msgid ""
+"Add Name for this Step to make "
+"Google Markup available"
+msgstr ""
+
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks/step/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:39
+msgid "Step Meta Description"
+msgstr ""
+
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks/step/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:39
+msgid ""
+"Add Description for this Step to "
+"make Google Markup available"
+msgstr ""
+
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks/step/inner/block-compiled__premium_only.js:1
+#: src/blocks/step/inner/block__premium_only.js:57
+#: src/blocks__premium_only.js:40
+msgid "UG Step Inner(Beta)"
+msgstr ""
+
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks/step/inner/block-compiled__premium_only.js:1
+#: src/blocks/step/inner/block__premium_only.js:184
+#: src/blocks/step/inner/block__premium_only.js:186
+#: src/blocks__premium_only.js:40
+msgid "Use Media"
+msgstr ""
+
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks/step/inner/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:40
+msgid "Step Title"
+msgstr ""
+
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks/step/inner/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:40
+msgid "Step Text"
+msgstr ""
+
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks/img/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:41
+msgid "Img Description"
+msgstr ""
+
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks/codedemo/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:42
+msgid "JavaScript"
+msgstr ""
+
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks/codedemo/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:42
+msgid ""
+"If you want to add uncompiled code "
+"of JavaScript, you can do it by "
+"turning on this. However, this is "
+"not used for displaying the output "
+"of markup."
+msgstr ""
+
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks/codedemo/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:42
+msgid "Preprocessor(JavaScript)"
+msgstr ""
+
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks/codedemo/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:42
+msgid "Height for Demo Code area"
+msgstr ""
+
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks/codedemo/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:42
+msgid ""
+"Code demo Block's style is reflected "
+"on only front screen."
+msgstr ""
+
+#: dist/blocks.build__premium_only.js:1
+#: src/blocks/pie-chart/normal/block-compiled__premium_only.js:1
+#: src/blocks__premium_only.js:45
+msgid "Circle Title Text"
+msgstr ""
